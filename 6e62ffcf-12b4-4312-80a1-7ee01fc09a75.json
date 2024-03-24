@@ -154,6 +154,34 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/Backgrounds/82e24c48618660952ceb6cede5c9917ceeb4371c9e971f4a49fb43689d045d89_tiled_black space.png",
           "name": "tiled_black space.png"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "aegisterracredito.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "aegisterracredito.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "botao-voltar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "botao-voltar.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Interstellar Main Theme - Hans Zimmer.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Interstellar Main Theme - Hans Zimmer.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -938,10 +966,10 @@
           "effects": [],
           "behaviors": [
             {
-              "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ],
@@ -2304,7 +2332,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.35269049347712245,
+        "zoomFactor": 0.34118560234734485,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -2330,14 +2358,29 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 263,
+          "height": 1273,
+          "layer": "",
+          "name": "Backgroud_credito",
+          "persistentUuid": "fe1490de-2c29-448f-8fb6-aa2fd6853200",
+          "width": 2219,
+          "x": 2,
+          "y": -16,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
           "layer": "",
           "name": "Equipe",
-          "persistentUuid": "5b43148e-0084-4f15-99a2-7071534b7aa2",
-          "width": 449,
-          "x": 766,
-          "y": 185,
-          "zOrder": 2,
+          "persistentUuid": "ed436d23-72ed-446e-9678-805080430ff2",
+          "width": 0,
+          "x": 593,
+          "y": 250,
+          "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2364,17 +2407,34 @@
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
-          "effects": [],
+          "effects": [
+            {
+              "effectType": "Bevel",
+              "name": "Effect",
+              "doubleParameters": {
+                "distance": 15,
+                "lightAlpha": 1,
+                "rotation": 1,
+                "shadowAlpha": 1,
+                "thickness": 2
+              },
+              "stringParameters": {
+                "lightColor": "255;255;255",
+                "shadowColor": "0;0;0"
+              },
+              "booleanParameters": {}
+            }
+          ],
           "behaviors": [
             {
               "name": "Text_AutoTyping",
               "type": "AutoTyping::Text_AutoTyping",
-              "Interval": 0.05,
+              "Interval": 0.1,
               "CharacterJustAdded": false,
               "CurrentCharacter": ""
             }
           ],
-          "string": "Curso: Engenharia de software - 7 Periodo\n\nEquipe: \n\nJosé Carlos;\nRenan;\nAlex;\nLeonardo",
+          "string": "Curso: Engenharia de software \n7° Periodo\n\nEquipe: \n\nAlex;\nLeonardo;\nJosé Carlos;\nRenan;\n\nUniVassouras\n",
           "font": "",
           "textAlignment": "center",
           "characterSize": 60,
@@ -2386,23 +2446,105 @@
           "content": {
             "bold": false,
             "isOutlineEnabled": false,
-            "isShadowEnabled": false,
+            "isShadowEnabled": true,
             "italic": false,
             "outlineColor": "255;255;255",
-            "outlineThickness": 2,
+            "outlineThickness": 1,
             "shadowAngle": 90,
             "shadowBlurRadius": 2,
-            "shadowColor": "0;0;0",
-            "shadowDistance": 4,
+            "shadowColor": "160;149;149",
+            "shadowDistance": 3,
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Curso: Engenharia de software - 7 Periodo\n\nEquipe: \n\nJosé Carlos;\nRenan;\nAlex;\nLeonardo",
+            "text": "Curso: Engenharia de software \n7° Periodo\n\nEquipe: \n\nAlex;\nLeonardo;\nJosé Carlos;\nRenan;\n\nUniVassouras\n",
             "font": "",
             "textAlignment": "center",
             "characterSize": 60,
             "color": "255;255;255"
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Backgroud_credito",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.055,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "aegisterracredito.jpg",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 5600,
+                            "y": 0
+                          },
+                          {
+                            "x": 5600,
+                            "y": 3200
+                          },
+                          {
+                            "x": 0,
+                            "y": 3200
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": []
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite2",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": []
         }
       ],
       "objectsFolderStructure": {
@@ -2412,11 +2554,39 @@
             "objectName": "BlackSpace"
           },
           {
+            "objectName": "Backgroud_credito"
+          },
+          {
+            "objectName": "NewSprite2"
+          },
+          {
+            "objectName": "NewSprite"
+          },
+          {
             "objectName": "Equipe"
           }
         ]
       },
-      "events": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "Interstellar Main Theme - Hans Zimmer.mp3",
+                "",
+                "10",
+                "1"
+              ]
+            }
+          ]
+        }
+      ],
       "layers": [
         {
           "ambientLightColorB": 200,
@@ -2465,8 +2635,16 @@
       ],
       "behaviorsSharedData": [
         {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
           "name": "Effect",
           "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
         },
         {
           "name": "Opacity",
