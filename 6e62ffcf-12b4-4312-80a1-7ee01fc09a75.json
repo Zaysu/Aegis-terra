@@ -819,6 +819,15 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/2870038-cenario-espaco-fundo-vetor.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\2870038-cenario-espaco-fundo-vetor.jpg",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2164,22 +2173,6 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 1779,
-          "layer": "",
-          "name": "BlueSpace",
-          "persistentUuid": "5e0b6b33-d8ef-4f35-8671-b207d47fef58",
-          "width": 3179,
-          "x": -173,
-          "y": -16,
-          "zOrder": -1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
           "height": 40,
           "layer": "Elementos",
           "name": "BronzeBolt",
@@ -2572,20 +2565,25 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 1777,
+          "layer": "",
+          "name": "NewSprite2",
+          "persistentUuid": "24ece499-d51b-4c61-a080-1c7dd3dde7fe",
+          "width": 3267,
+          "x": -175,
+          "y": -78,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
-        {
-          "assetStoreId": "747bdde8bda65d30484c55944bbe9e074ccec0351299831b5a81c1cf3665826f",
-          "height": 128,
-          "name": "BlueSpace",
-          "texture": "tiled_blue space.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 128,
-          "variables": [],
-          "effects": [],
-          "behaviors": []
-        },
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "420446a91335d849629bf076b66620754259f6daef1687534cd7fe9e7fe46dcc",
@@ -4841,13 +4839,73 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite2",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\2870038-cenario-espaco-fundo-vetor.jpg",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1531,
+                            "y": 0
+                          },
+                          {
+                            "x": 1531,
+                            "y": 980
+                          },
+                          {
+                            "x": 0,
+                            "y": 980
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
         "folderName": "__ROOT",
         "children": [
           {
-            "objectName": "BlueSpace"
+            "objectName": "NewSprite2"
           },
           {
             "objectName": "NewSprite"
