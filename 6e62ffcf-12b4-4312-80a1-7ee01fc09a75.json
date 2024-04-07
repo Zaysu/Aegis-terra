@@ -828,6 +828,32 @@
         "name": "assets\\2870038-cenario-espaco-fundo-vetor.jpg",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tank Bullet 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "d34b042116499a2f9422155e6d132e1a3ed740213ea8d44a83aef9131c773720_Tank Bullet 2.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tank pack (80 assets)/Projectile/d34b042116499a2f9422155e6d132e1a3ed740213ea8d44a83aef9131c773720_Tank Bullet 2.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bullet 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "813c71587b503185f86f0093e21106928297de45636ee24c459d6979b7f5be0f_Bullet 2.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Western FPS 2D/Weapon/Projectile/Ball/813c71587b503185f86f0093e21106928297de45636ee24c459d6979b7f5be0f_Bullet 2.png",
+          "name": "gdevelop-asset-store"
+        }
       }
     ],
     "resourceFolders": []
@@ -988,6 +1014,22 @@
           "x": -13,
           "y": 996,
           "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 48,
+          "height": 131,
+          "layer": "",
+          "name": "OnScreenControlsButton3",
+          "persistentUuid": "f1a9a490-91c1-4447-8d0d-31e724cf01a3",
+          "width": 493,
+          "x": 2250,
+          "y": 1295,
+          "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1895,6 +1937,89 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "26f7912e497fefccd32817a0c24533c9304633b47c6e556065dc498219877e81",
+          "name": "OnScreenControlsButton3",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "LeftPadding": 0,
+            "RightPadding": 0,
+            "PressedLabelOffsetY": 1,
+            "BottomPadding": 0,
+            "TopPadding": 0,
+            "HoveredFadeOutDuration": 0.2
+          },
+          "childrenContent": {
+            "Hovered": {
+              "bottomMargin": 6,
+              "height": 64,
+              "leftMargin": 6,
+              "rightMargin": 6,
+              "texture": "On Screen Controls Button_Hovered.png",
+              "tiled": false,
+              "topMargin": 6,
+              "width": 192
+            },
+            "Idle": {
+              "bottomMargin": 6,
+              "height": 64,
+              "leftMargin": 6,
+              "rightMargin": 6,
+              "texture": "On Screen Controls Button_Idle.png",
+              "tiled": false,
+              "topMargin": 6,
+              "width": 192
+            },
+            "Label": {
+              "bold": false,
+              "italic": false,
+              "smoothed": true,
+              "underlined": false,
+              "string": "Créditos",
+              "font": "Roboto-Bold.ttf",
+              "textAlignment": "center",
+              "characterSize": 80,
+              "color": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "content": {
+                "bold": false,
+                "isOutlineEnabled": false,
+                "isShadowEnabled": false,
+                "italic": false,
+                "outlineColor": "255;255;255",
+                "outlineThickness": 2,
+                "shadowAngle": 90,
+                "shadowBlurRadius": 2,
+                "shadowColor": "0;0;0",
+                "shadowDistance": 4,
+                "shadowOpacity": 127,
+                "smoothed": true,
+                "underlined": false,
+                "text": "Créditos",
+                "font": "Roboto-Bold.ttf",
+                "textAlignment": "center",
+                "characterSize": 80,
+                "color": "255;255;255"
+              }
+            },
+            "Pressed": {
+              "bottomMargin": 6,
+              "height": 64,
+              "leftMargin": 6,
+              "rightMargin": 6,
+              "texture": "On Screen Controls Button_Pressed.png",
+              "tiled": false,
+              "topMargin": 6,
+              "width": 192
+            }
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -1914,6 +2039,9 @@
           },
           {
             "objectName": "OnScreenControlsButton2"
+          },
+          {
+            "objectName": "OnScreenControlsButton3"
           },
           {
             "objectName": "NewText"
@@ -2172,7 +2300,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"Fase 1\"",
+                    "\"Cutscene\"",
                     ""
                   ]
                 }
@@ -2216,6 +2344,51 @@
                     "value": "Quit"
                   },
                   "parameters": [
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "OnScreenControlsButton3",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "MouseButtonReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Creditos\"",
                     ""
                   ]
                 }
@@ -2348,6 +2521,4190 @@
         {
           "name": "Text_AutoTyping",
           "type": "AutoTyping::Text_AutoTyping"
+        }
+      ]
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Cutscene",
+      "name": "Cutscene",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.16448391304937826,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [
+        {
+          "folded": true,
+          "name": "force",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "folded": true,
+          "name": "score",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "folded": true,
+          "name": "gameStart",
+          "type": "boolean",
+          "value": false
+        }
+      ],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 40,
+          "layer": "Elementos",
+          "name": "BronzeBolt",
+          "persistentUuid": "dea86d02-8874-4ba0-9090-b44ddac754c2",
+          "width": 20,
+          "x": 60,
+          "y": 43,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 40,
+          "layer": "Elementos",
+          "name": "BronzeBolt",
+          "persistentUuid": "4b39cfed-fdf4-49fb-b0bd-f44bc8a08a1c",
+          "width": 20,
+          "x": 100,
+          "y": 43,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 40,
+          "layer": "Elementos",
+          "name": "BronzeBolt",
+          "persistentUuid": "5bb9a2f6-5542-4968-83a6-b4a0923e736a",
+          "width": 20,
+          "x": 140,
+          "y": 43,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 40,
+          "layer": "Elementos",
+          "name": "BronzeBolt",
+          "persistentUuid": "c67e5a5e-8776-4782-82fb-d519aebd158d",
+          "width": 20,
+          "x": 180,
+          "y": 43,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 175,
+          "layer": "Elementos",
+          "name": "Enemy1",
+          "persistentUuid": "298aece1-3e0a-42d7-8a51-b5fc626d9446",
+          "width": 200,
+          "x": 1465,
+          "y": 233,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 50,
+          "layer": "",
+          "name": "Planeta",
+          "persistentUuid": "b6b806f0-0c0b-49ee-b8c5-ce7788ef799f",
+          "width": 50,
+          "x": 2088,
+          "y": 54,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "layer": "",
+          "name": "BigBrownMeteor4",
+          "persistentUuid": "138db6f2-afbc-4749-a26e-ad3a8907efb6",
+          "width": 29,
+          "x": 330,
+          "y": 1240,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 50,
+          "layer": "",
+          "name": "BigBrownMeteor1",
+          "persistentUuid": "4f92d83a-83e3-4fd8-b331-e03e2c05dd66",
+          "width": 50,
+          "x": 449,
+          "y": 1427,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 40,
+          "layer": "",
+          "name": "BigBrownMeteor4",
+          "persistentUuid": "81646554-66b2-45d3-bc5e-c72c1e9a9683",
+          "width": 40,
+          "x": 304,
+          "y": 1333,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 40,
+          "layer": "",
+          "name": "BigBrownMeteor4",
+          "persistentUuid": "a620708a-300e-43b9-859c-e8dc0ca67762",
+          "width": 40,
+          "x": 351,
+          "y": 987,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 25,
+          "layer": "",
+          "name": "BigBrownMeteor1",
+          "persistentUuid": "de1ca13d-5944-477a-b0f8-c88792437331",
+          "width": 25,
+          "x": 227,
+          "y": 1250,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 37,
+          "layer": "",
+          "name": "BigBrownMeteor3",
+          "persistentUuid": "0f2e0cdc-171d-4734-b331-45d0c96f812f",
+          "width": 41,
+          "x": 369,
+          "y": 1125,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 50,
+          "layer": "",
+          "name": "BigBrownMeteor3",
+          "persistentUuid": "6e040996-c9fa-4380-9200-edc33f2f2df6",
+          "width": 50,
+          "x": 535,
+          "y": 1084,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 50,
+          "layer": "",
+          "name": "BigBrownMeteor3",
+          "persistentUuid": "78d6c210-2357-465a-951e-6ff0f210282c",
+          "width": 50,
+          "x": 479,
+          "y": 1264,
+          "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 49,
+          "layer": "",
+          "name": "BigBrownMeteor3",
+          "persistentUuid": "d0851ec7-59c8-4f05-8a09-07add5b9d4fa",
+          "width": 42,
+          "x": 413,
+          "y": 1203,
+          "zOrder": 24,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 50,
+          "layer": "",
+          "name": "BigBrownMeteor1",
+          "persistentUuid": "04458f5b-97cf-4a6a-a1f9-1602021f5baa",
+          "width": 50,
+          "x": 255,
+          "y": 1153,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 40,
+          "layer": "",
+          "name": "BigBrownMeteor4",
+          "persistentUuid": "c6d736d2-33be-4178-a523-49d3575ce402",
+          "width": 40,
+          "x": 218,
+          "y": 935,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Planeta2",
+          "persistentUuid": "b04f51f8-7028-49b5-bbb8-0348d5c0d311",
+          "width": 0,
+          "x": 121,
+          "y": 560,
+          "zOrder": 28,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Planeta3",
+          "persistentUuid": "44deba5e-1f7f-4f6f-9b3f-2d85704174a2",
+          "width": 0,
+          "x": 2536,
+          "y": 1418,
+          "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 286,
+          "layer": "Elementos",
+          "name": "Player",
+          "persistentUuid": "247d3ad7-ccc0-4440-964b-a5378f22fda2",
+          "width": 286,
+          "x": 1369,
+          "y": 1217,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 175,
+          "layer": "Elementos",
+          "name": "Enemy2",
+          "persistentUuid": "f585ea3b-e3a0-4943-af74-59c4c36cce52",
+          "width": 200,
+          "x": 1080,
+          "y": 95,
+          "zOrder": 31,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 175,
+          "layer": "Elementos",
+          "name": "Enemy3",
+          "persistentUuid": "85564f11-ca0a-40c4-b68e-d101f0eafec7",
+          "width": 200,
+          "x": 1061,
+          "y": 419,
+          "zOrder": 32,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 175,
+          "layer": "Elementos",
+          "name": "Enemy4",
+          "persistentUuid": "22417e94-aa09-449a-a3a5-f49cea13b1b5",
+          "width": 200,
+          "x": 1542,
+          "y": 570,
+          "zOrder": 33,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 1620,
+          "layer": "",
+          "name": "Background",
+          "persistentUuid": "812b32c6-b536-452b-a3de-e12843731bfe",
+          "width": 2880,
+          "x": 0,
+          "y": 0,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "assetStoreId": "747bdde8bda65d30484c55944bbe9e074ccec0351299831b5a81c1cf3665826f",
+          "height": 128,
+          "name": "BlueSpace",
+          "texture": "tiled_blue space.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 128,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "420446a91335d849629bf076b66620754259f6daef1687534cd7fe9e7fe46dcc",
+          "name": "BlueLaser01",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Blue laser 01.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 9,
+                            "y": 0
+                          },
+                          {
+                            "x": 9,
+                            "y": 54
+                          },
+                          {
+                            "x": 0,
+                            "y": 54
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "9cbfcdf2c78c453095f1ac3d36ea13b0ad3eecb96e3200084d87bceb5c4695a9",
+          "name": "RedUfo",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Red Ufo.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 91,
+                            "y": 0
+                          },
+                          {
+                            "x": 91,
+                            "y": 91
+                          },
+                          {
+                            "x": 0,
+                            "y": 91
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "a29ee456a6f0eb83b754af722424d13930f89d4d0fd36feafea6ba2c1cca28a5",
+          "name": "BronzeBolt",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Bronze bolt.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 19,
+                            "y": 0
+                          },
+                          {
+                            "x": 19,
+                            "y": 30
+                          },
+                          {
+                            "x": 0,
+                            "y": 30
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "4528dc7c07af45a85753a8bf57c1f61f8c17ab86c6de1ed3c53d122b417afad4_tiled_Green substance flat ceiling.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 140,
+                            "y": 0
+                          },
+                          {
+                            "x": 140,
+                            "y": 20
+                          },
+                          {
+                            "x": 0,
+                            "y": 20
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "f3db06081bc912673fd61be195a85f9b02d6096ab5b8dbb9adf256f49badf677",
+          "name": "BigBrownMeteor4",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Big Brown Meteor 4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 98,
+                            "y": 0
+                          },
+                          {
+                            "x": 98,
+                            "y": 96
+                          },
+                          {
+                            "x": 0,
+                            "y": 96
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "c8d63b582d05bb3d699a8b4d0a9009af1750701518011ec496e69ace2bdb41f3",
+          "name": "BigBrownMeteor3",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Big Brown Meteor 3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 89,
+                            "y": 0
+                          },
+                          {
+                            "x": 89,
+                            "y": 82
+                          },
+                          {
+                            "x": 0,
+                            "y": 82
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "d5a6c1b2a6aaf3cb4b4626db6491f3fa491ed387f62202b9a4cf4482f0492b8a",
+          "name": "BigBrownMeteor1",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Big Brown Meteor 1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 101,
+                            "y": 0
+                          },
+                          {
+                            "x": 101,
+                            "y": 84
+                          },
+                          {
+                            "x": 0,
+                            "y": 84
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "da422d7019b6b1e8e1d1b9fa575b775d6588bdfe249545140203197bb1f5bbde",
+          "name": "Enemy1",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Red spaceship 1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 93,
+                            "y": 0
+                          },
+                          {
+                            "x": 93,
+                            "y": 84
+                          },
+                          {
+                            "x": 0,
+                            "y": 84
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Planeta1",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "030a256d0089ea24bd4f2262ab361ce08510311c3fa285a2af6951a68e50bf57_Earth Like Planet_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 15,
+                            "y": 15
+                          },
+                          {
+                            "x": 81,
+                            "y": 15
+                          },
+                          {
+                            "x": 81,
+                            "y": 81
+                          },
+                          {
+                            "x": 15,
+                            "y": 81
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Planeta2",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "95a2fb0d0036cca05e28608af5074bde38b641500c65aa59ca7a52d652caff09_Planet 1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 68
+                          },
+                          {
+                            "x": 0,
+                            "y": 68
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Planeta3",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "afb76d69320c64c308cda8ab39191e1063fa9a590f11e3dccd14edd102fa3a8e_Planet 2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 63,
+                            "y": 0
+                          },
+                          {
+                            "x": 63,
+                            "y": 63
+                          },
+                          {
+                            "x": 0,
+                            "y": 63
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Player",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Flash",
+              "type": "Flash::Flash",
+              "HalfPeriodTime": 0.1,
+              "IsFlashing": false,
+              "FlashDuration": 0
+            },
+            {
+              "name": "ScreenWrap",
+              "type": "ScreenWrap::ScreenWrap",
+              "HorizontalWrapping": true,
+              "VerticalWrapping": true,
+              "BorderTop": 0,
+              "BorderLeft": 0,
+              "BorderRight": 0,
+              "BorderBottom": 0,
+              "TriggerOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Player\\player0000.png",
+                      "points": [
+                        {
+                          "name": "RocketLeft",
+                          "x": 30,
+                          "y": 100
+                        },
+                        {
+                          "name": "RocketRight",
+                          "x": 97,
+                          "y": 100
+                        },
+                        {
+                          "name": "Rocket",
+                          "x": 64,
+                          "y": 110
+                        },
+                        {
+                          "name": "Weapon",
+                          "x": 64,
+                          "y": 10
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 64,
+                        "y": 64
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 27,
+                            "y": 15
+                          },
+                          {
+                            "x": 101,
+                            "y": 15
+                          },
+                          {
+                            "x": 101,
+                            "y": 114
+                          },
+                          {
+                            "x": 27,
+                            "y": 114
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Player\\player0001.png",
+                      "points": [
+                        {
+                          "name": "RocketLeft",
+                          "x": 30,
+                          "y": 100
+                        },
+                        {
+                          "name": "RocketRight",
+                          "x": 97,
+                          "y": 100
+                        },
+                        {
+                          "name": "Rocket",
+                          "x": 64,
+                          "y": 110
+                        },
+                        {
+                          "name": "Weapon",
+                          "x": 64,
+                          "y": 10
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 64,
+                        "y": 64
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 27,
+                            "y": 15
+                          },
+                          {
+                            "x": 101,
+                            "y": 15
+                          },
+                          {
+                            "x": 101,
+                            "y": 114
+                          },
+                          {
+                            "x": 27,
+                            "y": 114
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Player\\player0002.png",
+                      "points": [
+                        {
+                          "name": "RocketLeft",
+                          "x": 30,
+                          "y": 100
+                        },
+                        {
+                          "name": "RocketRight",
+                          "x": 97,
+                          "y": 100
+                        },
+                        {
+                          "name": "Rocket",
+                          "x": 64,
+                          "y": 110
+                        },
+                        {
+                          "name": "Weapon",
+                          "x": 64,
+                          "y": 10
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 64,
+                        "y": 64
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 27,
+                            "y": 15
+                          },
+                          {
+                            "x": 101,
+                            "y": 15
+                          },
+                          {
+                            "x": 101,
+                            "y": 114
+                          },
+                          {
+                            "x": 27,
+                            "y": 114
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Player\\player0003.png",
+                      "points": [
+                        {
+                          "name": "RocketLeft",
+                          "x": 30,
+                          "y": 100
+                        },
+                        {
+                          "name": "RocketRight",
+                          "x": 97,
+                          "y": 100
+                        },
+                        {
+                          "name": "Rocket",
+                          "x": 64,
+                          "y": 110
+                        },
+                        {
+                          "name": "Weapon",
+                          "x": 64,
+                          "y": 10
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 64,
+                        "y": 64
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 27,
+                            "y": 15
+                          },
+                          {
+                            "x": 101,
+                            "y": 15
+                          },
+                          {
+                            "x": 101,
+                            "y": 114
+                          },
+                          {
+                            "x": 27,
+                            "y": 114
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Player\\player0004.png",
+                      "points": [
+                        {
+                          "name": "RocketLeft",
+                          "x": 30,
+                          "y": 100
+                        },
+                        {
+                          "name": "RocketRight",
+                          "x": 97,
+                          "y": 100
+                        },
+                        {
+                          "name": "Rocket",
+                          "x": 64,
+                          "y": 110
+                        },
+                        {
+                          "name": "Weapon",
+                          "x": 64,
+                          "y": 10
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 64,
+                        "y": 64
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 27,
+                            "y": 15
+                          },
+                          {
+                            "x": 101,
+                            "y": 15
+                          },
+                          {
+                            "x": 101,
+                            "y": 114
+                          },
+                          {
+                            "x": 27,
+                            "y": 114
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Player\\player0005.png",
+                      "points": [
+                        {
+                          "name": "RocketLeft",
+                          "x": 30,
+                          "y": 100
+                        },
+                        {
+                          "name": "RocketRight",
+                          "x": 97,
+                          "y": 100
+                        },
+                        {
+                          "name": "Rocket",
+                          "x": 64,
+                          "y": 110
+                        },
+                        {
+                          "name": "Weapon",
+                          "x": 64,
+                          "y": 10
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 64,
+                        "y": 64
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 27,
+                            "y": 15
+                          },
+                          {
+                            "x": 101,
+                            "y": 15
+                          },
+                          {
+                            "x": 101,
+                            "y": 114
+                          },
+                          {
+                            "x": 27,
+                            "y": 114
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Player\\player0006.png",
+                      "points": [
+                        {
+                          "name": "RocketLeft",
+                          "x": 30,
+                          "y": 100
+                        },
+                        {
+                          "name": "RocketRight",
+                          "x": 97,
+                          "y": 100
+                        },
+                        {
+                          "name": "Rocket",
+                          "x": 64,
+                          "y": 110
+                        },
+                        {
+                          "name": "Weapon",
+                          "x": 64,
+                          "y": 10
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 64,
+                        "y": 64
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 27,
+                            "y": 15
+                          },
+                          {
+                            "x": 101,
+                            "y": 15
+                          },
+                          {
+                            "x": 101,
+                            "y": 114
+                          },
+                          {
+                            "x": 27,
+                            "y": 114
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Player\\player0007.png",
+                      "points": [
+                        {
+                          "name": "RocketLeft",
+                          "x": 30,
+                          "y": 100
+                        },
+                        {
+                          "name": "RocketRight",
+                          "x": 97,
+                          "y": 100
+                        },
+                        {
+                          "name": "Rocket",
+                          "x": 64,
+                          "y": 110
+                        },
+                        {
+                          "name": "Weapon",
+                          "x": 64,
+                          "y": 10
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 64,
+                        "y": 64
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 27,
+                            "y": 15
+                          },
+                          {
+                            "x": 101,
+                            "y": 15
+                          },
+                          {
+                            "x": 101,
+                            "y": 114
+                          },
+                          {
+                            "x": 27,
+                            "y": 114
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Player\\player0008.png",
+                      "points": [
+                        {
+                          "name": "RocketLeft",
+                          "x": 30,
+                          "y": 100
+                        },
+                        {
+                          "name": "RocketRight",
+                          "x": 97,
+                          "y": 100
+                        },
+                        {
+                          "name": "Rocket",
+                          "x": 64,
+                          "y": 110
+                        },
+                        {
+                          "name": "Weapon",
+                          "x": 64,
+                          "y": 10
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 64,
+                        "y": 64
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 27,
+                            "y": 15
+                          },
+                          {
+                            "x": 101,
+                            "y": 15
+                          },
+                          {
+                            "x": 101,
+                            "y": 114
+                          },
+                          {
+                            "x": 27,
+                            "y": 114
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Player\\player0009.png",
+                      "points": [
+                        {
+                          "name": "RocketLeft",
+                          "x": 30,
+                          "y": 100
+                        },
+                        {
+                          "name": "RocketRight",
+                          "x": 97,
+                          "y": 100
+                        },
+                        {
+                          "name": "Rocket",
+                          "x": 64,
+                          "y": 110
+                        },
+                        {
+                          "name": "Weapon",
+                          "x": 64,
+                          "y": 10
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 64,
+                        "y": 64
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 27,
+                            "y": 15
+                          },
+                          {
+                            "x": 101,
+                            "y": 15
+                          },
+                          {
+                            "x": 101,
+                            "y": 114
+                          },
+                          {
+                            "x": 27,
+                            "y": 114
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Player\\player0010.png",
+                      "points": [
+                        {
+                          "name": "RocketLeft",
+                          "x": 30,
+                          "y": 100
+                        },
+                        {
+                          "name": "RocketRight",
+                          "x": 97,
+                          "y": 100
+                        },
+                        {
+                          "name": "Rocket",
+                          "x": 64,
+                          "y": 110
+                        },
+                        {
+                          "name": "Weapon",
+                          "x": 64,
+                          "y": 10
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 64,
+                        "y": 64
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 27,
+                            "y": 15
+                          },
+                          {
+                            "x": 101,
+                            "y": 15
+                          },
+                          {
+                            "x": 101,
+                            "y": 114
+                          },
+                          {
+                            "x": 27,
+                            "y": 114
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Player\\player0011.png",
+                      "points": [
+                        {
+                          "name": "RocketLeft",
+                          "x": 30,
+                          "y": 100
+                        },
+                        {
+                          "name": "RocketRight",
+                          "x": 97,
+                          "y": 100
+                        },
+                        {
+                          "name": "Rocket",
+                          "x": 64,
+                          "y": 110
+                        },
+                        {
+                          "name": "Weapon",
+                          "x": 64,
+                          "y": 10
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 64,
+                        "y": 64
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 27,
+                            "y": 15
+                          },
+                          {
+                            "x": 101,
+                            "y": 15
+                          },
+                          {
+                            "x": 101,
+                            "y": 114
+                          },
+                          {
+                            "x": 27,
+                            "y": 114
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Player\\player0012.png",
+                      "points": [
+                        {
+                          "name": "RocketLeft",
+                          "x": 30,
+                          "y": 100
+                        },
+                        {
+                          "name": "RocketRight",
+                          "x": 97,
+                          "y": 100
+                        },
+                        {
+                          "name": "Rocket",
+                          "x": 64,
+                          "y": 110
+                        },
+                        {
+                          "name": "Weapon",
+                          "x": 64,
+                          "y": 10
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 64,
+                        "y": 64
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 27,
+                            "y": 15
+                          },
+                          {
+                            "x": 101,
+                            "y": 15
+                          },
+                          {
+                            "x": 101,
+                            "y": 114
+                          },
+                          {
+                            "x": 27,
+                            "y": 114
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Player\\player0013.png",
+                      "points": [
+                        {
+                          "name": "RocketLeft",
+                          "x": 30,
+                          "y": 100
+                        },
+                        {
+                          "name": "RocketRight",
+                          "x": 97,
+                          "y": 100
+                        },
+                        {
+                          "name": "Rocket",
+                          "x": 64,
+                          "y": 110
+                        },
+                        {
+                          "name": "Weapon",
+                          "x": 64,
+                          "y": 10
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 64,
+                        "y": 64
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 27,
+                            "y": 15
+                          },
+                          {
+                            "x": 101,
+                            "y": 15
+                          },
+                          {
+                            "x": 101,
+                            "y": 114
+                          },
+                          {
+                            "x": 27,
+                            "y": 114
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Player\\player0014.png",
+                      "points": [
+                        {
+                          "name": "RocketLeft",
+                          "x": 30,
+                          "y": 100
+                        },
+                        {
+                          "name": "RocketRight",
+                          "x": 97,
+                          "y": 100
+                        },
+                        {
+                          "name": "Rocket",
+                          "x": 64,
+                          "y": 110
+                        },
+                        {
+                          "name": "Weapon",
+                          "x": 64,
+                          "y": 10
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 64,
+                        "y": 64
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 27,
+                            "y": 15
+                          },
+                          {
+                            "x": 101,
+                            "y": 15
+                          },
+                          {
+                            "x": 101,
+                            "y": 114
+                          },
+                          {
+                            "x": 27,
+                            "y": 114
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "additive": true,
+          "assetStoreId": "353bb34bfff88ccb3e98dcf16b56e7855653c4f152c37485e23f2f409e2e3336",
+          "destroyWhenNoParticles": false,
+          "emitterAngleA": 0,
+          "emitterAngleB": 1,
+          "emitterForceMax": 250,
+          "emitterForceMin": 100,
+          "flow": 15,
+          "jumpForwardInTimeOnCreation": 0,
+          "maxParticleNb": 300,
+          "name": "BasicSmoke",
+          "particleAlpha1": 150,
+          "particleAlpha2": 0,
+          "particleAlphaRandomness1": 0,
+          "particleAlphaRandomness2": 0,
+          "particleAngle1": 0,
+          "particleAngle2": 0,
+          "particleAngleRandomness1": 0,
+          "particleAngleRandomness2": 0,
+          "particleBlue1": 20,
+          "particleBlue2": 63,
+          "particleGravityX": 0,
+          "particleGravityY": 0,
+          "particleGreen1": 20,
+          "particleGreen2": 63,
+          "particleLifeTimeMax": 1,
+          "particleLifeTimeMin": 0.5,
+          "particleRed1": 20,
+          "particleRed2": 63,
+          "particleSize1": 10,
+          "particleSize2": 50,
+          "particleSizeRandomness1": 0,
+          "particleSizeRandomness2": 0,
+          "rendererParam1": 50,
+          "rendererParam2": 1,
+          "rendererType": "Quad",
+          "tank": -1,
+          "textureParticleName": "ExplosionTexture-Smoke-1.png",
+          "type": "ParticleSystem::ParticleEmitter",
+          "zoneRadius": 3,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "additive": true,
+          "assetStoreId": "353bb34bfff88ccb3e98dcf16b56e7855653c4f152c37485e23f2f409e2e3336",
+          "destroyWhenNoParticles": false,
+          "emitterAngleA": 0,
+          "emitterAngleB": 1,
+          "emitterForceMax": 250,
+          "emitterForceMin": 100,
+          "flow": 15,
+          "jumpForwardInTimeOnCreation": 0,
+          "maxParticleNb": 300,
+          "name": "BasicSmokeRotate",
+          "particleAlpha1": 150,
+          "particleAlpha2": 0,
+          "particleAlphaRandomness1": 0,
+          "particleAlphaRandomness2": 0,
+          "particleAngle1": 0,
+          "particleAngle2": 0,
+          "particleAngleRandomness1": 0,
+          "particleAngleRandomness2": 0,
+          "particleBlue1": 20,
+          "particleBlue2": 63,
+          "particleGravityX": 0,
+          "particleGravityY": 0,
+          "particleGreen1": 20,
+          "particleGreen2": 63,
+          "particleLifeTimeMax": 0.5,
+          "particleLifeTimeMin": 0.1,
+          "particleRed1": 20,
+          "particleRed2": 63,
+          "particleSize1": 10,
+          "particleSize2": 30,
+          "particleSizeRandomness1": 0,
+          "particleSizeRandomness2": 0,
+          "rendererParam1": 50,
+          "rendererParam2": 1,
+          "rendererType": "Quad",
+          "tank": -1,
+          "textureParticleName": "ExplosionTexture-Smoke-1.png",
+          "type": "ParticleSystem::ParticleEmitter",
+          "zoneRadius": 3,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "da422d7019b6b1e8e1d1b9fa575b775d6588bdfe249545140203197bb1f5bbde",
+          "name": "Enemy2",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Red spaceship 1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 93,
+                            "y": 0
+                          },
+                          {
+                            "x": 93,
+                            "y": 84
+                          },
+                          {
+                            "x": 0,
+                            "y": 84
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "da422d7019b6b1e8e1d1b9fa575b775d6588bdfe249545140203197bb1f5bbde",
+          "name": "Enemy3",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Red spaceship 1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 93,
+                            "y": 0
+                          },
+                          {
+                            "x": 93,
+                            "y": 84
+                          },
+                          {
+                            "x": 0,
+                            "y": 84
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "da422d7019b6b1e8e1d1b9fa575b775d6588bdfe249545140203197bb1f5bbde",
+          "name": "Enemy4",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Red spaceship 1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 93,
+                            "y": 0
+                          },
+                          {
+                            "x": 93,
+                            "y": 84
+                          },
+                          {
+                            "x": 0,
+                            "y": 84
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Bullet",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Bullet\\Bullet-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 16,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 7,
+                            "y": 6
+                          },
+                          {
+                            "x": 26,
+                            "y": 6
+                          },
+                          {
+                            "x": 26,
+                            "y": 25
+                          },
+                          {
+                            "x": 7,
+                            "y": 25
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "EnemyBullet",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "813c71587b503185f86f0093e21106928297de45636ee24c459d6979b7f5be0f_Bullet 2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 34,
+                            "y": 0
+                          },
+                          {
+                            "x": 34,
+                            "y": 34
+                          },
+                          {
+                            "x": 0,
+                            "y": 34
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Background",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\2870038-cenario-espaco-fundo-vetor.jpg",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1531,
+                            "y": 0
+                          },
+                          {
+                            "x": 1531,
+                            "y": 980
+                          },
+                          {
+                            "x": 0,
+                            "y": 980
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "BlueSpace"
+          },
+          {
+            "objectName": "NewSprite"
+          },
+          {
+            "objectName": "BlueLaser01"
+          },
+          {
+            "objectName": "RedUfo"
+          },
+          {
+            "objectName": "BronzeBolt"
+          },
+          {
+            "objectName": "BigBrownMeteor4"
+          },
+          {
+            "objectName": "BigBrownMeteor3"
+          },
+          {
+            "objectName": "BigBrownMeteor1"
+          },
+          {
+            "objectName": "Enemy1"
+          },
+          {
+            "objectName": "Enemy2"
+          },
+          {
+            "objectName": "Enemy3"
+          },
+          {
+            "objectName": "Enemy4"
+          },
+          {
+            "objectName": "Planeta1"
+          },
+          {
+            "objectName": "Planeta2"
+          },
+          {
+            "objectName": "Planeta3"
+          },
+          {
+            "objectName": "Player"
+          },
+          {
+            "objectName": "BasicSmoke"
+          },
+          {
+            "objectName": "BasicSmokeRotate"
+          },
+          {
+            "objectName": "Bullet"
+          },
+          {
+            "objectName": "EnemyBullet"
+          },
+          {
+            "objectName": "Background"
+          }
+        ]
+      },
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"Temporizador\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"Temporizador\"",
+                "<",
+                "2"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Rotate"
+              },
+              "parameters": [
+                "Player",
+                "45",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Temporizador\"",
+                    ">=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Temporizador\"",
+                    "<",
+                    "10"
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "Player",
+                "+",
+                "2"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Temporizador\"",
+                    ">=",
+                    "10"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Temporizador\"",
+                    "<",
+                    "12"
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Rotate"
+              },
+              "parameters": [
+                "Player",
+                "-45",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Temporizador\"",
+                    ">=",
+                    "20"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Temporizador\"",
+                    "<",
+                    "22"
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Rotate"
+              },
+              "parameters": [
+                "Player",
+                "-45",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Temporizador\"",
+                    ">=",
+                    "22"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Temporizador\"",
+                    "<",
+                    "30"
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "Player",
+                "-",
+                "2"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Temporizador\"",
+                    ">=",
+                    "30"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Temporizador\"",
+                    "<",
+                    "32"
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Rotate"
+              },
+              "parameters": [
+                "Player",
+                "45",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Temporizador\"",
+                    ">=",
+                    "35"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Temporizador\"",
+                    "<",
+                    "37"
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Rotate"
+              },
+              "parameters": [
+                "Player",
+                "45",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Temporizador\"",
+                    ">=",
+                    "37"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Temporizador\"",
+                    "<",
+                    "45"
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "Player",
+                "+",
+                "2"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Temporizador\"",
+                    ">=",
+                    "45"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Temporizador\"",
+                    "<",
+                    "49"
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Rotate"
+              },
+              "parameters": [
+                "Player",
+                "-45",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Temporizador\"",
+                    ">=",
+                    "49"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Temporizador\"",
+                    "<",
+                    "58"
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "Player",
+                "-",
+                "2"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Temporizador\"",
+                    ">=",
+                    "58"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Temporizador\"",
+                    "<",
+                    "60"
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Rotate"
+              },
+              "parameters": [
+                "Player",
+                "45",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"Temporizador\"",
+                "<",
+                "15"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "Enemy1",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "Enemy2",
+                "-",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "Enemy3",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "Enemy4",
+                "-",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Temporizador\"",
+                    ">=",
+                    "15"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Temporizador\"",
+                    "<",
+                    "30"
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "Enemy1",
+                "-",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "Enemy2",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "Enemy3",
+                "-",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "Enemy4",
+                "+",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Temporizador\"",
+                    ">=",
+                    "30"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Temporizador\"",
+                    "<",
+                    "45"
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "Enemy1",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "Enemy2",
+                "-",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "Enemy3",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "Enemy4",
+                "-",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Temporizador\"",
+                    ">=",
+                    "45"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Temporizador\"",
+                    "<",
+                    "60"
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "Enemy1",
+                "-",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "Enemy2",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "Enemy3",
+                "-",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "Enemy4",
+                "+",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Temporizador\"",
+                    ">=",
+                    "12"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Temporizador\"",
+                    "<",
+                    "12.1"
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "Bullet",
+                "Bullet",
+                "Player.CenterX()",
+                "Player.CenterY() - 100",
+                "\"Elementos\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceAL"
+              },
+              "parameters": [
+                "Bullet",
+                "-90",
+                "1000",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Temporizador\"",
+                    ">=",
+                    "32"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Temporizador\"",
+                    "<",
+                    "32.1"
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "Bullet",
+                "Bullet",
+                "Player.CenterX()",
+                "Player.CenterY() - 100",
+                "\"Elementos\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceAL"
+              },
+              "parameters": [
+                "Bullet",
+                "-90",
+                "1000",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Temporizador\"",
+                    ">=",
+                    "45"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Temporizador\"",
+                    "<",
+                    "45.1"
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "EnemyBullet",
+                "Enemy1.CenterX()",
+                "Enemy1.CenterY() + 100",
+                "\"Elementos\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceAL"
+              },
+              "parameters": [
+                "EnemyBullet",
+                "90",
+                "1000",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Temporizador\"",
+                    ">=",
+                    "25"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Temporizador\"",
+                    "<",
+                    "25.1"
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "EnemyBullet",
+                "Enemy1.CenterX()",
+                "Enemy1.CenterY() + 100",
+                "\"Elementos\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceAL"
+              },
+              "parameters": [
+                "EnemyBullet",
+                "90",
+                "1000",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Temporizador\"",
+                    ">=",
+                    "30"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Temporizador\"",
+                    "<",
+                    "30.1"
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "EnemyBullet",
+                "Enemy2.CenterX()",
+                "Enemy2.CenterY() + 100",
+                "\"Elementos\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceAL"
+              },
+              "parameters": [
+                "EnemyBullet",
+                "90",
+                "1000",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Temporizador\"",
+                    ">=",
+                    "10"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Temporizador\"",
+                    "<",
+                    "10.1"
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "EnemyBullet",
+                "Enemy2.CenterX()",
+                "Enemy2.CenterY() + 100",
+                "\"Elementos\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceAL"
+              },
+              "parameters": [
+                "EnemyBullet",
+                "90",
+                "1000",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Temporizador\"",
+                    ">=",
+                    "50"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Temporizador\"",
+                    "<",
+                    "50.1"
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "EnemyBullet",
+                "Enemy3.CenterX()",
+                "Enemy3.CenterY() + 100",
+                "\"Elementos\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceAL"
+              },
+              "parameters": [
+                "EnemyBullet",
+                "90",
+                "1000",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Temporizador\"",
+                    ">=",
+                    "35"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Temporizador\"",
+                    "<",
+                    "35.1"
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "EnemyBullet",
+                "Enemy3.CenterX()",
+                "Enemy3.CenterY() + 100",
+                "\"Elementos\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceAL"
+              },
+              "parameters": [
+                "EnemyBullet",
+                "90",
+                "1000",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Temporizador\"",
+                    ">=",
+                    "15"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Temporizador\"",
+                    "<",
+                    "15.1"
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "EnemyBullet",
+                "Enemy4.CenterX()",
+                "Enemy4.CenterY() + 100",
+                "\"Elementos\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceAL"
+              },
+              "parameters": [
+                "EnemyBullet",
+                "90",
+                "1000",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Temporizador\"",
+                    ">=",
+                    "55"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Temporizador\"",
+                    "<",
+                    "55.1"
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "EnemyBullet",
+                "Enemy4.CenterX()",
+                "Enemy4.CenterY() + 100",
+                "\"Elementos\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceAL"
+              },
+              "parameters": [
+                "EnemyBullet",
+                "90",
+                "1000",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Bullet",
+                    "Enemy1",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Bullet",
+                    "Enemy2",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Bullet",
+                    "Enemy3",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Bullet",
+                    "Enemy4",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Bullet",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "EnemyBullet",
+                "Player",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "EnemyBullet",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"Temporizador\"",
+                ">=",
+                "60"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Fase 1\"",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Elementos",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flash",
+          "type": "Flash::Flash"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "ScreenWrap",
+          "type": "ScreenWrap::ScreenWrap"
         }
       ]
     },
@@ -8622,6 +12979,29 @@
                 "",
                 "10",
                 "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "AnyKeyPressed"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Quit"
+              },
+              "parameters": [
+                ""
               ]
             }
           ]
