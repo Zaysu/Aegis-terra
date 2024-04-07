@@ -645,6 +645,180 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Particles/76d83bbc056a46fdf9f8f8dd1096f3c76baacafcdf81d728ced6ddaced2da9a8_ExplosionTexture-Smoke-1.png",
           "name": "ExplosionTexture-Smoke-1.png"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bullet/Bullet-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Bullet\\Bullet-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bullet/Bullet-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Bullet\\Bullet-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bullet/Bullet-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Bullet\\Bullet-3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bullet/Bullet-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Bullet\\Bullet-4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bullet/Bullet-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Bullet\\Bullet-5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bullet/Bullet-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Bullet\\Bullet-6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bullet/Bullet-7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Bullet\\Bullet-7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bullet/Bullet-8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Bullet\\Bullet-8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bullet/Bullet-9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Bullet\\Bullet-9.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bullet/Bullet-10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Bullet\\Bullet-10.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bullet/Bullet-11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Bullet\\Bullet-11.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bullet/Bullet-12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Bullet\\Bullet-12.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bullet/Bullet-13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Bullet\\Bullet-13.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bullet/Bullet-14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Bullet\\Bullet-14.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bullet/Bullet-15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Bullet\\Bullet-15.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bullet/Bullet-16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Bullet\\Bullet-16.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "OneRepublic - Counting Stars (SNES Version) [TubeRipper.cc].ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "OneRepublic - Counting Stars (SNES Version) [TubeRipper.cc].ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "Explosion 3.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Explosion 3.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "Lazer Fire 1.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Lazer Fire 1.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2361,8 +2535,8 @@
           "name": "Player",
           "persistentUuid": "247d3ad7-ccc0-4440-964b-a5378f22fda2",
           "width": 286,
-          "x": 1369,
-          "y": 1217,
+          "x": 1354,
+          "y": 1368,
           "zOrder": 30,
           "numberProperties": [],
           "stringProperties": [],
@@ -3139,7 +3313,7 @@
                         {
                           "name": "Weapon",
                           "x": 64,
-                          "y": 10
+                          "y": 5
                         }
                       ],
                       "originPoint": {
@@ -3196,7 +3370,7 @@
                         {
                           "name": "Weapon",
                           "x": 64,
-                          "y": 10
+                          "y": 5
                         }
                       ],
                       "originPoint": {
@@ -3253,7 +3427,7 @@
                         {
                           "name": "Weapon",
                           "x": 64,
-                          "y": 10
+                          "y": 5
                         }
                       ],
                       "originPoint": {
@@ -3310,7 +3484,7 @@
                         {
                           "name": "Weapon",
                           "x": 64,
-                          "y": 10
+                          "y": 5
                         }
                       ],
                       "originPoint": {
@@ -3367,7 +3541,7 @@
                         {
                           "name": "Weapon",
                           "x": 64,
-                          "y": 10
+                          "y": 5
                         }
                       ],
                       "originPoint": {
@@ -3424,7 +3598,7 @@
                         {
                           "name": "Weapon",
                           "x": 64,
-                          "y": 10
+                          "y": 5
                         }
                       ],
                       "originPoint": {
@@ -3481,7 +3655,7 @@
                         {
                           "name": "Weapon",
                           "x": 64,
-                          "y": 10
+                          "y": 5
                         }
                       ],
                       "originPoint": {
@@ -3538,7 +3712,7 @@
                         {
                           "name": "Weapon",
                           "x": 64,
-                          "y": 10
+                          "y": 5
                         }
                       ],
                       "originPoint": {
@@ -3595,7 +3769,7 @@
                         {
                           "name": "Weapon",
                           "x": 64,
-                          "y": 10
+                          "y": 5
                         }
                       ],
                       "originPoint": {
@@ -3652,7 +3826,7 @@
                         {
                           "name": "Weapon",
                           "x": 64,
-                          "y": 10
+                          "y": 5
                         }
                       ],
                       "originPoint": {
@@ -3709,7 +3883,7 @@
                         {
                           "name": "Weapon",
                           "x": 64,
-                          "y": 10
+                          "y": 5
                         }
                       ],
                       "originPoint": {
@@ -3766,7 +3940,7 @@
                         {
                           "name": "Weapon",
                           "x": 64,
-                          "y": 10
+                          "y": 5
                         }
                       ],
                       "originPoint": {
@@ -3823,7 +3997,7 @@
                         {
                           "name": "Weapon",
                           "x": 64,
-                          "y": 10
+                          "y": 5
                         }
                       ],
                       "originPoint": {
@@ -3880,7 +4054,7 @@
                         {
                           "name": "Weapon",
                           "x": 64,
-                          "y": 10
+                          "y": 5
                         }
                       ],
                       "originPoint": {
@@ -3937,7 +4111,7 @@
                         {
                           "name": "Weapon",
                           "x": 64,
-                          "y": 10
+                          "y": 5
                         }
                       ],
                       "originPoint": {
@@ -4067,6 +4241,606 @@
           "variables": [],
           "effects": [],
           "behaviors": []
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Bullet",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Bullet\\Bullet-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 16,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 7,
+                            "y": 6
+                          },
+                          {
+                            "x": 26,
+                            "y": 6
+                          },
+                          {
+                            "x": 26,
+                            "y": 25
+                          },
+                          {
+                            "x": 7,
+                            "y": 25
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Bullet\\Bullet-2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 16,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 7,
+                            "y": 6
+                          },
+                          {
+                            "x": 26,
+                            "y": 6
+                          },
+                          {
+                            "x": 26,
+                            "y": 25
+                          },
+                          {
+                            "x": 7,
+                            "y": 25
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Bullet\\Bullet-3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 16,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 7,
+                            "y": 6
+                          },
+                          {
+                            "x": 26,
+                            "y": 6
+                          },
+                          {
+                            "x": 26,
+                            "y": 25
+                          },
+                          {
+                            "x": 7,
+                            "y": 25
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Bullet\\Bullet-4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 16,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 7,
+                            "y": 6
+                          },
+                          {
+                            "x": 26,
+                            "y": 6
+                          },
+                          {
+                            "x": 26,
+                            "y": 25
+                          },
+                          {
+                            "x": 7,
+                            "y": 25
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Bullet\\Bullet-5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 16,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 7,
+                            "y": 6
+                          },
+                          {
+                            "x": 26,
+                            "y": 6
+                          },
+                          {
+                            "x": 26,
+                            "y": 25
+                          },
+                          {
+                            "x": 7,
+                            "y": 25
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Bullet\\Bullet-6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 16,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 7,
+                            "y": 6
+                          },
+                          {
+                            "x": 26,
+                            "y": 6
+                          },
+                          {
+                            "x": 26,
+                            "y": 25
+                          },
+                          {
+                            "x": 7,
+                            "y": 25
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Bullet\\Bullet-7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 16,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 7,
+                            "y": 6
+                          },
+                          {
+                            "x": 26,
+                            "y": 6
+                          },
+                          {
+                            "x": 26,
+                            "y": 25
+                          },
+                          {
+                            "x": 7,
+                            "y": 25
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Bullet\\Bullet-8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 16,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 7,
+                            "y": 6
+                          },
+                          {
+                            "x": 26,
+                            "y": 6
+                          },
+                          {
+                            "x": 26,
+                            "y": 25
+                          },
+                          {
+                            "x": 7,
+                            "y": 25
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Bullet\\Bullet-9.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 16,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 7,
+                            "y": 6
+                          },
+                          {
+                            "x": 26,
+                            "y": 6
+                          },
+                          {
+                            "x": 26,
+                            "y": 25
+                          },
+                          {
+                            "x": 7,
+                            "y": 25
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Bullet\\Bullet-10.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 16,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 7,
+                            "y": 6
+                          },
+                          {
+                            "x": 26,
+                            "y": 6
+                          },
+                          {
+                            "x": 26,
+                            "y": 25
+                          },
+                          {
+                            "x": 7,
+                            "y": 25
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Bullet\\Bullet-11.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 16,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 7,
+                            "y": 6
+                          },
+                          {
+                            "x": 26,
+                            "y": 6
+                          },
+                          {
+                            "x": 26,
+                            "y": 25
+                          },
+                          {
+                            "x": 7,
+                            "y": 25
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Bullet\\Bullet-12.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 16,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 7,
+                            "y": 6
+                          },
+                          {
+                            "x": 26,
+                            "y": 6
+                          },
+                          {
+                            "x": 26,
+                            "y": 25
+                          },
+                          {
+                            "x": 7,
+                            "y": 25
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Bullet\\Bullet-13.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 16,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 7,
+                            "y": 6
+                          },
+                          {
+                            "x": 26,
+                            "y": 6
+                          },
+                          {
+                            "x": 26,
+                            "y": 25
+                          },
+                          {
+                            "x": 7,
+                            "y": 25
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Bullet\\Bullet-14.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 16,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 7,
+                            "y": 6
+                          },
+                          {
+                            "x": 26,
+                            "y": 6
+                          },
+                          {
+                            "x": 26,
+                            "y": 25
+                          },
+                          {
+                            "x": 7,
+                            "y": 25
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Bullet\\Bullet-15.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 16,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 7,
+                            "y": 6
+                          },
+                          {
+                            "x": 26,
+                            "y": 6
+                          },
+                          {
+                            "x": 26,
+                            "y": 25
+                          },
+                          {
+                            "x": 7,
+                            "y": 25
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Bullet\\Bullet-16.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 16,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 7,
+                            "y": 6
+                          },
+                          {
+                            "x": 26,
+                            "y": 6
+                          },
+                          {
+                            "x": 26,
+                            "y": 25
+                          },
+                          {
+                            "x": 7,
+                            "y": 25
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -4116,10 +4890,31 @@
           },
           {
             "objectName": "BasicSmokeRotate"
+          },
+          {
+            "objectName": "Bullet"
           }
         ]
       },
       "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "OneRepublic - Counting Stars (SNES Version) [TubeRipper.cc].ogg",
+                "yes",
+                "0.2",
+                "1.0"
+              ]
+            }
+          ]
+        },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -4469,6 +5264,92 @@
                   },
                   "parameters": [
                     "BasicSmokeRotate"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Tiro\n"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "LControl"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Bullet",
+                    "Player.PointX(\"Weapon\")",
+                    "Player.PointY(\"Weapon\")",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AddForceAL"
+                  },
+                  "parameters": [
+                    "Bullet",
+                    "Player.Angle()-90",
+                    "400",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Lazer Fire 1.wav",
+                    "",
+                    "5.0",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "7"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Bullet",
+                    ""
                   ]
                 }
               ]
