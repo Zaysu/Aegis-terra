@@ -645,6 +645,215 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Particles/76d83bbc056a46fdf9f8f8dd1096f3c76baacafcdf81d728ced6ddaced2da9a8_ExplosionTexture-Smoke-1.png",
           "name": "ExplosionTexture-Smoke-1.png"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bullet/Bullet-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Bullet\\Bullet-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bullet/Bullet-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Bullet\\Bullet-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bullet/Bullet-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Bullet\\Bullet-3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bullet/Bullet-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Bullet\\Bullet-4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bullet/Bullet-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Bullet\\Bullet-5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bullet/Bullet-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Bullet\\Bullet-6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bullet/Bullet-7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Bullet\\Bullet-7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bullet/Bullet-8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Bullet\\Bullet-8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bullet/Bullet-9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Bullet\\Bullet-9.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bullet/Bullet-10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Bullet\\Bullet-10.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bullet/Bullet-11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Bullet\\Bullet-11.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bullet/Bullet-12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Bullet\\Bullet-12.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bullet/Bullet-13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Bullet\\Bullet-13.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bullet/Bullet-14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Bullet\\Bullet-14.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bullet/Bullet-15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Bullet\\Bullet-15.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bullet/Bullet-16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Bullet\\Bullet-16.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "OneRepublic - Counting Stars (SNES Version) [TubeRipper.cc].ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "OneRepublic - Counting Stars (SNES Version) [TubeRipper.cc].ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "Explosion 3.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Explosion 3.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "Lazer Fire 1.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Lazer Fire 1.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/2870038-cenario-espaco-fundo-vetor.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\2870038-cenario-espaco-fundo-vetor.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tank Bullet 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "d34b042116499a2f9422155e6d132e1a3ed740213ea8d44a83aef9131c773720_Tank Bullet 2.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tank pack (80 assets)/Projectile/d34b042116499a2f9422155e6d132e1a3ed740213ea8d44a83aef9131c773720_Tank Bullet 2.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bullet 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "813c71587b503185f86f0093e21106928297de45636ee24c459d6979b7f5be0f_Bullet 2.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Western FPS 2D/Weapon/Projectile/Ball/813c71587b503185f86f0093e21106928297de45636ee24c459d6979b7f5be0f_Bullet 2.png",
+          "name": "gdevelop-asset-store"
+        }
       }
     ],
     "resourceFolders": []
@@ -686,13 +895,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 1730,
+          "height": 2287,
           "layer": "",
           "name": "BlueSpace",
           "persistentUuid": "7c55fc43-ac7f-48a2-b321-c45b6fcbe050",
-          "width": 3071,
-          "x": 0,
-          "y": 0,
+          "width": 3624,
+          "x": -469,
+          "y": -328,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -738,8 +947,8 @@
           "name": "OnScreenControlsButton",
           "persistentUuid": "559d5d51-80e5-4252-958e-74e4a33185d4",
           "width": 488,
-          "x": 808,
-          "y": 699,
+          "x": 872,
+          "y": 678,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -754,8 +963,8 @@
           "name": "OnScreenControlsButton2",
           "persistentUuid": "a0417757-71cf-4aea-81be-166a7db19e42",
           "width": 477,
-          "x": 815,
-          "y": 931,
+          "x": 879,
+          "y": 914,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -770,8 +979,8 @@
           "name": "NewText",
           "persistentUuid": "e818dbc0-2fba-4b83-a5c4-5d2fff4e4702",
           "width": 1089,
-          "x": 819,
-          "y": 420,
+          "x": 1019,
+          "y": 252,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -781,13 +990,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 1923,
+          "height": 2946,
           "layer": "",
           "name": "StarryBackgroundStars2",
           "persistentUuid": "ddbc1a31-cc7b-4a87-ad05-f7b2767bb548",
-          "width": 3335,
-          "x": -148,
-          "y": -41,
+          "width": 4051,
+          "x": -638,
+          "y": -606,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -802,8 +1011,8 @@
           "name": "NewSprite",
           "persistentUuid": "ce6591f0-8dd7-4fa8-b52c-6761c7926024",
           "width": 532,
-          "x": 1578,
-          "y": 631,
+          "x": 1875,
+          "y": 601,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -1771,7 +1980,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"Creditos\"",
+                    "\"Fase 1\"",
                     ""
                   ]
                 }
@@ -1986,22 +2195,6 @@
         }
       ],
       "instances": [
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 1779,
-          "layer": "",
-          "name": "BlueSpace",
-          "persistentUuid": "5e0b6b33-d8ef-4f35-8671-b207d47fef58",
-          "width": 3179,
-          "x": -173,
-          "y": -16,
-          "zOrder": -1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
         {
           "angle": 0,
           "customSize": true,
@@ -2367,6 +2560,22 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 1620,
+          "layer": "",
+          "name": "Background",
+          "persistentUuid": "812b32c6-b536-452b-a3de-e12843731bfe",
+          "width": 2880,
+          "x": 0,
+          "y": 0,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -4216,6 +4425,186 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Bullet",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Bullet\\Bullet-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 16,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 7,
+                            "y": 6
+                          },
+                          {
+                            "x": 26,
+                            "y": 6
+                          },
+                          {
+                            "x": 26,
+                            "y": 25
+                          },
+                          {
+                            "x": 7,
+                            "y": 25
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "EnemyBullet",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "813c71587b503185f86f0093e21106928297de45636ee24c459d6979b7f5be0f_Bullet 2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 34,
+                            "y": 0
+                          },
+                          {
+                            "x": 34,
+                            "y": 34
+                          },
+                          {
+                            "x": 0,
+                            "y": 34
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Background",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\2870038-cenario-espaco-fundo-vetor.jpg",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1531,
+                            "y": 0
+                          },
+                          {
+                            "x": 1531,
+                            "y": 980
+                          },
+                          {
+                            "x": 0,
+                            "y": 980
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -4274,6 +4663,15 @@
           },
           {
             "objectName": "BasicSmokeRotate"
+          },
+          {
+            "objectName": "Bullet"
+          },
+          {
+            "objectName": "EnemyBullet"
+          },
+          {
+            "objectName": "Background"
           }
         ]
       },
@@ -4335,258 +4733,32 @@
           "conditions": [
             {
               "type": {
-                "value": "CompareTimer"
+                "value": "BuiltinCommonInstructions::And"
               },
-              "parameters": [
-                "",
-                "\"Temporizador\"",
-                ">=",
-                "2"
-              ]
-            },
-            {
-              "type": {
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"Temporizador\"",
-                "<",
-                "10"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "MettreX"
-              },
-              "parameters": [
-                "Player",
-                "+",
-                "2"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"Temporizador\"",
-                ">=",
-                "10"
-              ]
-            },
-            {
-              "type": {
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"Temporizador\"",
-                "<",
-                "12"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Rotate"
-              },
-              "parameters": [
-                "Player",
-                "-45",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"Temporizador\"",
-                ">=",
-                "20"
-              ]
-            },
-            {
-              "type": {
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"Temporizador\"",
-                "<",
-                "22"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Rotate"
-              },
-              "parameters": [
-                "Player",
-                "-45",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"Temporizador\"",
-                ">=",
-                "22"
-              ]
-            },
-            {
-              "type": {
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"Temporizador\"",
-                "<",
-                "30"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "MettreX"
-              },
-              "parameters": [
-                "Player",
-                "-",
-                "2"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"Temporizador\"",
-                ">=",
-                "30"
-              ]
-            },
-            {
-              "type": {
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"Temporizador\"",
-                "<",
-                "32"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Rotate"
-              },
-              "parameters": [
-                "Player",
-                "45",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"Temporizador\"",
-                ">=",
-                "35"
-              ]
-            },
-            {
-              "type": {
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"Temporizador\"",
-                "<",
-                "37"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Rotate"
-              },
-              "parameters": [
-                "Player",
-                "45",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"Temporizador\"",
-                ">=",
-                "37"
-              ]
-            },
-            {
-              "type": {
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"Temporizador\"",
-                "<",
-                "45"
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Temporizador\"",
+                    ">=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Temporizador\"",
+                    "<",
+                    "10"
+                  ]
+                }
               ]
             }
           ],
@@ -4608,24 +4780,32 @@
           "conditions": [
             {
               "type": {
-                "value": "CompareTimer"
+                "value": "BuiltinCommonInstructions::And"
               },
-              "parameters": [
-                "",
-                "\"Temporizador\"",
-                ">=",
-                "45"
-              ]
-            },
-            {
-              "type": {
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"Temporizador\"",
-                "<",
-                "49"
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Temporizador\"",
+                    ">=",
+                    "10"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Temporizador\"",
+                    "<",
+                    "12"
+                  ]
+                }
               ]
             }
           ],
@@ -4647,24 +4827,79 @@
           "conditions": [
             {
               "type": {
-                "value": "CompareTimer"
+                "value": "BuiltinCommonInstructions::And"
               },
-              "parameters": [
-                "",
-                "\"Temporizador\"",
-                ">=",
-                "49"
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Temporizador\"",
+                    ">=",
+                    "20"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Temporizador\"",
+                    "<",
+                    "22"
+                  ]
+                }
               ]
-            },
+            }
+          ],
+          "actions": [
             {
               "type": {
-                "value": "CompareTimer"
+                "value": "Rotate"
               },
               "parameters": [
-                "",
-                "\"Temporizador\"",
-                "<",
-                "58"
+                "Player",
+                "-45",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Temporizador\"",
+                    ">=",
+                    "22"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Temporizador\"",
+                    "<",
+                    "30"
+                  ]
+                }
               ]
             }
           ],
@@ -4686,24 +4921,267 @@
           "conditions": [
             {
               "type": {
-                "value": "CompareTimer"
+                "value": "BuiltinCommonInstructions::And"
               },
-              "parameters": [
-                "",
-                "\"Temporizador\"",
-                ">=",
-                "58"
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Temporizador\"",
+                    ">=",
+                    "30"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Temporizador\"",
+                    "<",
+                    "32"
+                  ]
+                }
               ]
-            },
+            }
+          ],
+          "actions": [
             {
               "type": {
-                "value": "CompareTimer"
+                "value": "Rotate"
               },
               "parameters": [
-                "",
-                "\"Temporizador\"",
-                "<",
-                "60"
+                "Player",
+                "45",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Temporizador\"",
+                    ">=",
+                    "35"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Temporizador\"",
+                    "<",
+                    "37"
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Rotate"
+              },
+              "parameters": [
+                "Player",
+                "45",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Temporizador\"",
+                    ">=",
+                    "37"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Temporizador\"",
+                    "<",
+                    "45"
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "Player",
+                "+",
+                "2"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Temporizador\"",
+                    ">=",
+                    "45"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Temporizador\"",
+                    "<",
+                    "49"
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Rotate"
+              },
+              "parameters": [
+                "Player",
+                "-45",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Temporizador\"",
+                    ">=",
+                    "49"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Temporizador\"",
+                    "<",
+                    "58"
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "Player",
+                "-",
+                "2"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Temporizador\"",
+                    ">=",
+                    "58"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Temporizador\"",
+                    "<",
+                    "60"
+                  ]
+                }
               ]
             }
           ],
@@ -4783,24 +5261,32 @@
           "conditions": [
             {
               "type": {
-                "value": "CompareTimer"
+                "value": "BuiltinCommonInstructions::And"
               },
-              "parameters": [
-                "",
-                "\"Temporizador\"",
-                ">=",
-                "15"
-              ]
-            },
-            {
-              "type": {
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"Temporizador\"",
-                "<",
-                "30"
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Temporizador\"",
+                    ">=",
+                    "15"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Temporizador\"",
+                    "<",
+                    "30"
+                  ]
+                }
               ]
             }
           ],
@@ -4852,24 +5338,32 @@
           "conditions": [
             {
               "type": {
-                "value": "CompareTimer"
+                "value": "BuiltinCommonInstructions::And"
               },
-              "parameters": [
-                "",
-                "\"Temporizador\"",
-                ">=",
-                "30"
-              ]
-            },
-            {
-              "type": {
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"Temporizador\"",
-                "<",
-                "45"
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Temporizador\"",
+                    ">=",
+                    "30"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Temporizador\"",
+                    "<",
+                    "45"
+                  ]
+                }
               ]
             }
           ],
@@ -4921,15 +5415,781 @@
           "conditions": [
             {
               "type": {
-                "value": "CompareTimer"
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Temporizador\"",
+                    ">=",
+                    "45"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Temporizador\"",
+                    "<",
+                    "60"
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "Enemy1",
+                "-",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "Enemy2",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "Enemy3",
+                "-",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "Enemy4",
+                "+",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Temporizador\"",
+                    ">=",
+                    "12"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Temporizador\"",
+                    "<",
+                    "12.1"
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "Bullet",
+                "Bullet",
+                "Player.CenterX()",
+                "Player.CenterY() - 100",
+                "\"Elementos\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceAL"
+              },
+              "parameters": [
+                "Bullet",
+                "-90",
+                "1000",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Temporizador\"",
+                    ">=",
+                    "32"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Temporizador\"",
+                    "<",
+                    "32.1"
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "Bullet",
+                "Bullet",
+                "Player.CenterX()",
+                "Player.CenterY() - 100",
+                "\"Elementos\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceAL"
+              },
+              "parameters": [
+                "Bullet",
+                "-90",
+                "1000",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Temporizador\"",
+                    ">=",
+                    "45"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Temporizador\"",
+                    "<",
+                    "45.1"
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
               },
               "parameters": [
                 "",
-                "\"Temporizador\"",
-                ">=",
-                "45"
+                "EnemyBullet",
+                "Enemy1.CenterX()",
+                "Enemy1.CenterY() + 100",
+                "\"Elementos\""
               ]
             },
+            {
+              "type": {
+                "value": "AddForceAL"
+              },
+              "parameters": [
+                "EnemyBullet",
+                "90",
+                "1000",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Temporizador\"",
+                    ">=",
+                    "25"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Temporizador\"",
+                    "<",
+                    "25.1"
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "EnemyBullet",
+                "Enemy1.CenterX()",
+                "Enemy1.CenterY() + 100",
+                "\"Elementos\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceAL"
+              },
+              "parameters": [
+                "EnemyBullet",
+                "90",
+                "1000",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Temporizador\"",
+                    ">=",
+                    "30"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Temporizador\"",
+                    "<",
+                    "30.1"
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "EnemyBullet",
+                "Enemy2.CenterX()",
+                "Enemy2.CenterY() + 100",
+                "\"Elementos\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceAL"
+              },
+              "parameters": [
+                "EnemyBullet",
+                "90",
+                "1000",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Temporizador\"",
+                    ">=",
+                    "10"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Temporizador\"",
+                    "<",
+                    "10.1"
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "EnemyBullet",
+                "Enemy2.CenterX()",
+                "Enemy2.CenterY() + 100",
+                "\"Elementos\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceAL"
+              },
+              "parameters": [
+                "EnemyBullet",
+                "90",
+                "1000",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Temporizador\"",
+                    ">=",
+                    "50"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Temporizador\"",
+                    "<",
+                    "50.1"
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "EnemyBullet",
+                "Enemy3.CenterX()",
+                "Enemy3.CenterY() + 100",
+                "\"Elementos\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceAL"
+              },
+              "parameters": [
+                "EnemyBullet",
+                "90",
+                "1000",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Temporizador\"",
+                    ">=",
+                    "35"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Temporizador\"",
+                    "<",
+                    "35.1"
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "EnemyBullet",
+                "Enemy3.CenterX()",
+                "Enemy3.CenterY() + 100",
+                "\"Elementos\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceAL"
+              },
+              "parameters": [
+                "EnemyBullet",
+                "90",
+                "1000",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Temporizador\"",
+                    ">=",
+                    "15"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Temporizador\"",
+                    "<",
+                    "15.1"
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "EnemyBullet",
+                "Enemy4.CenterX()",
+                "Enemy4.CenterY() + 100",
+                "\"Elementos\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceAL"
+              },
+              "parameters": [
+                "EnemyBullet",
+                "90",
+                "1000",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Temporizador\"",
+                    ">=",
+                    "55"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Temporizador\"",
+                    "<",
+                    "55.1"
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "EnemyBullet",
+                "Enemy4.CenterX()",
+                "Enemy4.CenterY() + 100",
+                "\"Elementos\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceAL"
+              },
+              "parameters": [
+                "EnemyBullet",
+                "90",
+                "1000",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Bullet",
+                    "Enemy1",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Bullet",
+                    "Enemy2",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Bullet",
+                    "Enemy3",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Bullet",
+                    "Enemy4",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Bullet",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "EnemyBullet",
+                "Player",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "EnemyBullet",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
             {
               "type": {
                 "value": "CompareTimer"
@@ -4937,7 +6197,7 @@
               "parameters": [
                 "",
                 "\"Temporizador\"",
-                "<",
+                ">=",
                 "60"
               ]
             }
@@ -4945,42 +6205,12 @@
           "actions": [
             {
               "type": {
-                "value": "MettreX"
+                "value": "Scene"
               },
               "parameters": [
-                "Enemy1",
-                "-",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "MettreX"
-              },
-              "parameters": [
-                "Enemy2",
-                "+",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "MettreX"
-              },
-              "parameters": [
-                "Enemy3",
-                "-",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "MettreX"
-              },
-              "parameters": [
-                "Enemy4",
-                "+",
-                "1"
+                "",
+                "\"Fase 1\"",
+                ""
               ]
             }
           ]
@@ -5149,22 +6379,6 @@
         }
       ],
       "instances": [
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 1779,
-          "layer": "",
-          "name": "BlueSpace",
-          "persistentUuid": "5e0b6b33-d8ef-4f35-8671-b207d47fef58",
-          "width": 3179,
-          "x": -173,
-          "y": -16,
-          "zOrder": -1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
         {
           "angle": 0,
           "customSize": true,
@@ -5524,8 +6738,8 @@
           "name": "Player",
           "persistentUuid": "247d3ad7-ccc0-4440-964b-a5378f22fda2",
           "width": 286,
-          "x": 1369,
-          "y": 1217,
+          "x": 1354,
+          "y": 1368,
           "zOrder": 30,
           "numberProperties": [],
           "stringProperties": [],
@@ -5561,20 +6775,25 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 1777,
+          "layer": "",
+          "name": "NewSprite2",
+          "persistentUuid": "24ece499-d51b-4c61-a080-1c7dd3dde7fe",
+          "width": 3267,
+          "x": -175,
+          "y": -78,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
-        {
-          "assetStoreId": "747bdde8bda65d30484c55944bbe9e074ccec0351299831b5a81c1cf3665826f",
-          "height": 128,
-          "name": "BlueSpace",
-          "texture": "tiled_blue space.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 128,
-          "variables": [],
-          "effects": [],
-          "behaviors": []
-        },
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "420446a91335d849629bf076b66620754259f6daef1687534cd7fe9e7fe46dcc",
@@ -6302,7 +7521,7 @@
                         {
                           "name": "Weapon",
                           "x": 64,
-                          "y": 10
+                          "y": 5
                         }
                       ],
                       "originPoint": {
@@ -6359,7 +7578,7 @@
                         {
                           "name": "Weapon",
                           "x": 64,
-                          "y": 10
+                          "y": 5
                         }
                       ],
                       "originPoint": {
@@ -6416,7 +7635,7 @@
                         {
                           "name": "Weapon",
                           "x": 64,
-                          "y": 10
+                          "y": 5
                         }
                       ],
                       "originPoint": {
@@ -6473,7 +7692,7 @@
                         {
                           "name": "Weapon",
                           "x": 64,
-                          "y": 10
+                          "y": 5
                         }
                       ],
                       "originPoint": {
@@ -6530,7 +7749,7 @@
                         {
                           "name": "Weapon",
                           "x": 64,
-                          "y": 10
+                          "y": 5
                         }
                       ],
                       "originPoint": {
@@ -6587,7 +7806,7 @@
                         {
                           "name": "Weapon",
                           "x": 64,
-                          "y": 10
+                          "y": 5
                         }
                       ],
                       "originPoint": {
@@ -6644,7 +7863,7 @@
                         {
                           "name": "Weapon",
                           "x": 64,
-                          "y": 10
+                          "y": 5
                         }
                       ],
                       "originPoint": {
@@ -6701,7 +7920,7 @@
                         {
                           "name": "Weapon",
                           "x": 64,
-                          "y": 10
+                          "y": 5
                         }
                       ],
                       "originPoint": {
@@ -6758,7 +7977,7 @@
                         {
                           "name": "Weapon",
                           "x": 64,
-                          "y": 10
+                          "y": 5
                         }
                       ],
                       "originPoint": {
@@ -6815,7 +8034,7 @@
                         {
                           "name": "Weapon",
                           "x": 64,
-                          "y": 10
+                          "y": 5
                         }
                       ],
                       "originPoint": {
@@ -6872,7 +8091,7 @@
                         {
                           "name": "Weapon",
                           "x": 64,
-                          "y": 10
+                          "y": 5
                         }
                       ],
                       "originPoint": {
@@ -6929,7 +8148,7 @@
                         {
                           "name": "Weapon",
                           "x": 64,
-                          "y": 10
+                          "y": 5
                         }
                       ],
                       "originPoint": {
@@ -6986,7 +8205,7 @@
                         {
                           "name": "Weapon",
                           "x": 64,
-                          "y": 10
+                          "y": 5
                         }
                       ],
                       "originPoint": {
@@ -7043,7 +8262,7 @@
                         {
                           "name": "Weapon",
                           "x": 64,
-                          "y": 10
+                          "y": 5
                         }
                       ],
                       "originPoint": {
@@ -7100,7 +8319,7 @@
                         {
                           "name": "Weapon",
                           "x": 64,
-                          "y": 10
+                          "y": 5
                         }
                       ],
                       "originPoint": {
@@ -7230,13 +8449,673 @@
           "variables": [],
           "effects": [],
           "behaviors": []
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Bullet",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Bullet\\Bullet-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 16,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 7,
+                            "y": 6
+                          },
+                          {
+                            "x": 26,
+                            "y": 6
+                          },
+                          {
+                            "x": 26,
+                            "y": 25
+                          },
+                          {
+                            "x": 7,
+                            "y": 25
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Bullet\\Bullet-2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 16,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 7,
+                            "y": 6
+                          },
+                          {
+                            "x": 26,
+                            "y": 6
+                          },
+                          {
+                            "x": 26,
+                            "y": 25
+                          },
+                          {
+                            "x": 7,
+                            "y": 25
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Bullet\\Bullet-3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 16,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 7,
+                            "y": 6
+                          },
+                          {
+                            "x": 26,
+                            "y": 6
+                          },
+                          {
+                            "x": 26,
+                            "y": 25
+                          },
+                          {
+                            "x": 7,
+                            "y": 25
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Bullet\\Bullet-4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 16,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 7,
+                            "y": 6
+                          },
+                          {
+                            "x": 26,
+                            "y": 6
+                          },
+                          {
+                            "x": 26,
+                            "y": 25
+                          },
+                          {
+                            "x": 7,
+                            "y": 25
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Bullet\\Bullet-5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 16,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 7,
+                            "y": 6
+                          },
+                          {
+                            "x": 26,
+                            "y": 6
+                          },
+                          {
+                            "x": 26,
+                            "y": 25
+                          },
+                          {
+                            "x": 7,
+                            "y": 25
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Bullet\\Bullet-6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 16,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 7,
+                            "y": 6
+                          },
+                          {
+                            "x": 26,
+                            "y": 6
+                          },
+                          {
+                            "x": 26,
+                            "y": 25
+                          },
+                          {
+                            "x": 7,
+                            "y": 25
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Bullet\\Bullet-7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 16,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 7,
+                            "y": 6
+                          },
+                          {
+                            "x": 26,
+                            "y": 6
+                          },
+                          {
+                            "x": 26,
+                            "y": 25
+                          },
+                          {
+                            "x": 7,
+                            "y": 25
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Bullet\\Bullet-8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 16,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 7,
+                            "y": 6
+                          },
+                          {
+                            "x": 26,
+                            "y": 6
+                          },
+                          {
+                            "x": 26,
+                            "y": 25
+                          },
+                          {
+                            "x": 7,
+                            "y": 25
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Bullet\\Bullet-9.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 16,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 7,
+                            "y": 6
+                          },
+                          {
+                            "x": 26,
+                            "y": 6
+                          },
+                          {
+                            "x": 26,
+                            "y": 25
+                          },
+                          {
+                            "x": 7,
+                            "y": 25
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Bullet\\Bullet-10.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 16,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 7,
+                            "y": 6
+                          },
+                          {
+                            "x": 26,
+                            "y": 6
+                          },
+                          {
+                            "x": 26,
+                            "y": 25
+                          },
+                          {
+                            "x": 7,
+                            "y": 25
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Bullet\\Bullet-11.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 16,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 7,
+                            "y": 6
+                          },
+                          {
+                            "x": 26,
+                            "y": 6
+                          },
+                          {
+                            "x": 26,
+                            "y": 25
+                          },
+                          {
+                            "x": 7,
+                            "y": 25
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Bullet\\Bullet-12.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 16,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 7,
+                            "y": 6
+                          },
+                          {
+                            "x": 26,
+                            "y": 6
+                          },
+                          {
+                            "x": 26,
+                            "y": 25
+                          },
+                          {
+                            "x": 7,
+                            "y": 25
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Bullet\\Bullet-13.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 16,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 7,
+                            "y": 6
+                          },
+                          {
+                            "x": 26,
+                            "y": 6
+                          },
+                          {
+                            "x": 26,
+                            "y": 25
+                          },
+                          {
+                            "x": 7,
+                            "y": 25
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Bullet\\Bullet-14.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 16,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 7,
+                            "y": 6
+                          },
+                          {
+                            "x": 26,
+                            "y": 6
+                          },
+                          {
+                            "x": 26,
+                            "y": 25
+                          },
+                          {
+                            "x": 7,
+                            "y": 25
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Bullet\\Bullet-15.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 16,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 7,
+                            "y": 6
+                          },
+                          {
+                            "x": 26,
+                            "y": 6
+                          },
+                          {
+                            "x": 26,
+                            "y": 25
+                          },
+                          {
+                            "x": 7,
+                            "y": 25
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Bullet\\Bullet-16.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 16,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 7,
+                            "y": 6
+                          },
+                          {
+                            "x": 26,
+                            "y": 6
+                          },
+                          {
+                            "x": 26,
+                            "y": 25
+                          },
+                          {
+                            "x": 7,
+                            "y": 25
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite2",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\2870038-cenario-espaco-fundo-vetor.jpg",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1531,
+                            "y": 0
+                          },
+                          {
+                            "x": 1531,
+                            "y": 980
+                          },
+                          {
+                            "x": 0,
+                            "y": 980
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
         "folderName": "__ROOT",
         "children": [
           {
-            "objectName": "BlueSpace"
+            "objectName": "NewSprite2"
           },
           {
             "objectName": "NewSprite"
@@ -7279,10 +9158,31 @@
           },
           {
             "objectName": "BasicSmokeRotate"
+          },
+          {
+            "objectName": "Bullet"
           }
         ]
       },
       "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "OneRepublic - Counting Stars (SNES Version) [TubeRipper.cc].ogg",
+                "yes",
+                "0.2",
+                "1.0"
+              ]
+            }
+          ]
+        },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -7632,6 +9532,92 @@
                   },
                   "parameters": [
                     "BasicSmokeRotate"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Tiro\n"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "LControl"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Bullet",
+                    "Player.PointX(\"Weapon\")",
+                    "Player.PointY(\"Weapon\")",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AddForceAL"
+                  },
+                  "parameters": [
+                    "Bullet",
+                    "Player.Angle()-90",
+                    "400",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Lazer Fire 1.wav",
+                    "",
+                    "5.0",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "7"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Bullet",
+                    ""
                   ]
                 }
               ]
