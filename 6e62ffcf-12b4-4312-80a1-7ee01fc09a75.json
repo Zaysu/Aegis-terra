@@ -985,8 +985,8 @@
           "name": "NewSprite",
           "persistentUuid": "ce6591f0-8dd7-4fa8-b52c-6761c7926024",
           "width": 532,
-          "x": 1875,
-          "y": 601,
+          "x": -13,
+          "y": 996,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -1240,8 +1240,33 @@
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
-          "effects": [],
-          "behaviors": [],
+          "effects": [
+            {
+              "effectType": "Bevel",
+              "name": "Effect",
+              "doubleParameters": {
+                "distance": 15,
+                "lightAlpha": 1,
+                "rotation": 1,
+                "shadowAlpha": 1,
+                "thickness": 2
+              },
+              "stringParameters": {
+                "lightColor": "255;255;255",
+                "shadowColor": "0;0;0"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [
+            {
+              "name": "Text_AutoTyping",
+              "type": "AutoTyping::Text_AutoTyping",
+              "Interval": 0.05,
+              "CharacterJustAdded": false,
+              "CurrentCharacter": ""
+            }
+          ],
           "string": "A E G I S   T E R R A",
           "font": "",
           "textAlignment": "center",
@@ -1918,6 +1943,199 @@
           ]
         },
         {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Movimentação Nave\n\n"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"Temporizador\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"Temporizador\"",
+                "<",
+                "2"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Rotate"
+              },
+              "parameters": [
+                "NewSprite",
+                "45",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"Temporizador\"",
+                ">=",
+                "10"
+              ]
+            },
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"Temporizador\"",
+                "<",
+                "12"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Rotate"
+              },
+              "parameters": [
+                "NewSprite",
+                "-45",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"Temporizador\"",
+                ">=",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"Temporizador\"",
+                "<",
+                "15"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "NewSprite",
+                "+",
+                "2"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"Temporizador\"",
+                ">=",
+                "15"
+              ]
+            },
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"Temporizador\"",
+                "<",
+                "19"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreY"
+              },
+              "parameters": [
+                "NewSprite",
+                "-",
+                "2"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Funcionalidades Menu"
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -2004,6 +2222,11 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "layers": [
@@ -2121,6 +2344,10 @@
         {
           "name": "Text",
           "type": "TextContainerCapability::TextContainerBehavior"
+        },
+        {
+          "name": "Text_AutoTyping",
+          "type": "AutoTyping::Text_AutoTyping"
         }
       ]
     },
