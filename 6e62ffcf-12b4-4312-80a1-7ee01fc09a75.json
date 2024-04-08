@@ -854,6 +854,60 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Western FPS 2D/Weapon/Projectile/Ball/813c71587b503185f86f0093e21106928297de45636ee24c459d6979b7f5be0f_Bullet 2.png",
           "name": "gdevelop-asset-store"
         }
+      },
+      {
+        "file": "assets/One Step Closer.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "2191d02b3f40793ec7bfd3e1ddec63c5fba89850450b245ef196657bb2929b0e_One Step Closer.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Music/Fantasy/2191d02b3f40793ec7bfd3e1ddec63c5fba89850450b245ef196657bb2929b0e_One Step Closer.aac",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/aegisterragravacao.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\aegisterragravacao.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/interstellar-main-theme-hans-zimmer.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\interstellar-main-theme-hans-zimmer.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/lazer-fire.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\lazer-fire.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/one-republic-counting-stars-(snes-version).ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\one-republic-counting-stars-(snes-version).ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -885,7 +939,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.23689563725446594,
+        "zoomFactor": 0.1539278892348327,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -2054,7 +2108,16 @@
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
           "actions": [
             {
               "type": {
@@ -2064,7 +2127,7 @@
                 "",
                 "A Theme For Space (8bit music).mp3",
                 "",
-                "5.0",
+                "15",
                 "1"
               ]
             }
@@ -2642,8 +2705,8 @@
           "name": "Enemy1",
           "persistentUuid": "298aece1-3e0a-42d7-8a51-b5fc626d9446",
           "width": 200,
-          "x": 1465,
-          "y": 233,
+          "x": 1453,
+          "y": 209,
           "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
@@ -2896,8 +2959,8 @@
           "name": "Enemy2",
           "persistentUuid": "f585ea3b-e3a0-4943-af74-59c4c36cce52",
           "width": 200,
-          "x": 1080,
-          "y": 95,
+          "x": 1074,
+          "y": 52,
           "zOrder": 31,
           "numberProperties": [],
           "stringProperties": [],
@@ -2928,8 +2991,8 @@
           "name": "Enemy4",
           "persistentUuid": "22417e94-aa09-449a-a3a5-f49cea13b1b5",
           "width": 200,
-          "x": 1542,
-          "y": 570,
+          "x": 1518,
+          "y": 613,
           "zOrder": 33,
           "numberProperties": [],
           "stringProperties": [],
@@ -5079,6 +5142,33 @@
           "conditions": [
             {
               "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "assets\\aegisterragravacao.wav",
+                "",
+                "100",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
                 "value": "CompareTimer"
               },
               "parameters": [
@@ -5213,7 +5303,7 @@
                     "",
                     "\"Temporizador\"",
                     ">=",
-                    "20"
+                    "10"
                   ]
                 },
                 {
@@ -5224,7 +5314,7 @@
                     "",
                     "\"Temporizador\"",
                     "<",
-                    "22"
+                    "10.1"
                   ]
                 }
               ]
@@ -5233,11 +5323,36 @@
           "actions": [
             {
               "type": {
-                "value": "Rotate"
+                "value": "Create"
               },
               "parameters": [
-                "Player",
-                "-45",
+                "",
+                "EnemyBullet",
+                "Enemy2.CenterX()",
+                "Enemy2.CenterY() + 100",
+                "\"Elementos\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceAL"
+              },
+              "parameters": [
+                "EnemyBullet",
+                "90",
+                "1000",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "assets\\lazer-fire.wav",
+                "",
+                "5",
                 ""
               ]
             }
@@ -5260,7 +5375,7 @@
                     "",
                     "\"Temporizador\"",
                     ">=",
-                    "22"
+                    "12"
                   ]
                 },
                 {
@@ -5271,7 +5386,7 @@
                     "",
                     "\"Temporizador\"",
                     "<",
-                    "30"
+                    "12.1"
                   ]
                 }
               ]
@@ -5280,293 +5395,36 @@
           "actions": [
             {
               "type": {
-                "value": "MettreX"
+                "value": "Create"
               },
               "parameters": [
-                "Player",
-                "-",
-                "2"
+                "Bullet",
+                "Bullet",
+                "Player.CenterX()",
+                "Player.CenterY() - 100",
+                "\"Elementos\""
               ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
+            },
             {
               "type": {
-                "value": "BuiltinCommonInstructions::And"
-              },
-              "parameters": [],
-              "subInstructions": [
-                {
-                  "type": {
-                    "value": "CompareTimer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Temporizador\"",
-                    ">=",
-                    "30"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "CompareTimer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Temporizador\"",
-                    "<",
-                    "32"
-                  ]
-                }
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Rotate"
+                "value": "AddForceAL"
               },
               "parameters": [
-                "Player",
-                "45",
-                ""
+                "Bullet",
+                "-90",
+                "1000",
+                "1"
               ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
+            },
             {
               "type": {
-                "value": "BuiltinCommonInstructions::And"
-              },
-              "parameters": [],
-              "subInstructions": [
-                {
-                  "type": {
-                    "value": "CompareTimer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Temporizador\"",
-                    ">=",
-                    "35"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "CompareTimer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Temporizador\"",
-                    "<",
-                    "37"
-                  ]
-                }
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Rotate"
+                "value": "PlayMusic"
               },
               "parameters": [
-                "Player",
-                "45",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::And"
-              },
-              "parameters": [],
-              "subInstructions": [
-                {
-                  "type": {
-                    "value": "CompareTimer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Temporizador\"",
-                    ">=",
-                    "37"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "CompareTimer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Temporizador\"",
-                    "<",
-                    "45"
-                  ]
-                }
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "MettreX"
-              },
-              "parameters": [
-                "Player",
-                "+",
-                "2"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::And"
-              },
-              "parameters": [],
-              "subInstructions": [
-                {
-                  "type": {
-                    "value": "CompareTimer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Temporizador\"",
-                    ">=",
-                    "45"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "CompareTimer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Temporizador\"",
-                    "<",
-                    "49"
-                  ]
-                }
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Rotate"
-              },
-              "parameters": [
-                "Player",
-                "-45",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::And"
-              },
-              "parameters": [],
-              "subInstructions": [
-                {
-                  "type": {
-                    "value": "CompareTimer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Temporizador\"",
-                    ">=",
-                    "49"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "CompareTimer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Temporizador\"",
-                    "<",
-                    "58"
-                  ]
-                }
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "MettreX"
-              },
-              "parameters": [
-                "Player",
-                "-",
-                "2"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::And"
-              },
-              "parameters": [],
-              "subInstructions": [
-                {
-                  "type": {
-                    "value": "CompareTimer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Temporizador\"",
-                    ">=",
-                    "58"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "CompareTimer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Temporizador\"",
-                    "<",
-                    "60"
-                  ]
-                }
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Rotate"
-              },
-              "parameters": [
-                "Player",
-                "45",
+                "",
+                "assets\\lazer-fire.wav",
+                "",
+                "5",
                 ""
               ]
             }
@@ -5724,7 +5582,7 @@
                     "",
                     "\"Temporizador\"",
                     ">=",
-                    "30"
+                    "15"
                   ]
                 },
                 {
@@ -5735,281 +5593,7 @@
                     "",
                     "\"Temporizador\"",
                     "<",
-                    "45"
-                  ]
-                }
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "MettreX"
-              },
-              "parameters": [
-                "Enemy1",
-                "+",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "MettreX"
-              },
-              "parameters": [
-                "Enemy2",
-                "-",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "MettreX"
-              },
-              "parameters": [
-                "Enemy3",
-                "+",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "MettreX"
-              },
-              "parameters": [
-                "Enemy4",
-                "-",
-                "1"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::And"
-              },
-              "parameters": [],
-              "subInstructions": [
-                {
-                  "type": {
-                    "value": "CompareTimer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Temporizador\"",
-                    ">=",
-                    "45"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "CompareTimer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Temporizador\"",
-                    "<",
-                    "60"
-                  ]
-                }
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "MettreX"
-              },
-              "parameters": [
-                "Enemy1",
-                "-",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "MettreX"
-              },
-              "parameters": [
-                "Enemy2",
-                "+",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "MettreX"
-              },
-              "parameters": [
-                "Enemy3",
-                "-",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "MettreX"
-              },
-              "parameters": [
-                "Enemy4",
-                "+",
-                "1"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::And"
-              },
-              "parameters": [],
-              "subInstructions": [
-                {
-                  "type": {
-                    "value": "CompareTimer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Temporizador\"",
-                    ">=",
-                    "12"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "CompareTimer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Temporizador\"",
-                    "<",
-                    "12.1"
-                  ]
-                }
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "Bullet",
-                "Bullet",
-                "Player.CenterX()",
-                "Player.CenterY() - 100",
-                "\"Elementos\""
-              ]
-            },
-            {
-              "type": {
-                "value": "AddForceAL"
-              },
-              "parameters": [
-                "Bullet",
-                "-90",
-                "1000",
-                "1"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::And"
-              },
-              "parameters": [],
-              "subInstructions": [
-                {
-                  "type": {
-                    "value": "CompareTimer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Temporizador\"",
-                    ">=",
-                    "32"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "CompareTimer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Temporizador\"",
-                    "<",
-                    "32.1"
-                  ]
-                }
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "Bullet",
-                "Bullet",
-                "Player.CenterX()",
-                "Player.CenterY() - 100",
-                "\"Elementos\""
-              ]
-            },
-            {
-              "type": {
-                "value": "AddForceAL"
-              },
-              "parameters": [
-                "Bullet",
-                "-90",
-                "1000",
-                "1"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::And"
-              },
-              "parameters": [],
-              "subInstructions": [
-                {
-                  "type": {
-                    "value": "CompareTimer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Temporizador\"",
-                    ">=",
-                    "45"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "CompareTimer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Temporizador\"",
-                    "<",
-                    "45.1"
+                    "15.1"
                   ]
                 }
               ]
@@ -6023,8 +5607,8 @@
               "parameters": [
                 "",
                 "EnemyBullet",
-                "Enemy1.CenterX()",
-                "Enemy1.CenterY() + 100",
+                "Enemy4.CenterX()",
+                "Enemy4.CenterY() + 100",
                 "\"Elementos\""
               ]
             },
@@ -6037,6 +5621,112 @@
                 "90",
                 "1000",
                 "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "assets\\lazer-fire.wav",
+                "",
+                "5",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Temporizador\"",
+                    ">=",
+                    "20"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Temporizador\"",
+                    "<",
+                    "22"
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Rotate"
+              },
+              "parameters": [
+                "Player",
+                "-45",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Temporizador\"",
+                    ">=",
+                    "22"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Temporizador\"",
+                    "<",
+                    "30"
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "Player",
+                "-",
+                "2"
               ]
             }
           ]
@@ -6096,6 +5786,142 @@
                 "EnemyBullet",
                 "90",
                 "1000",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "assets\\lazer-fire.wav",
+                "",
+                "5",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Temporizador\"",
+                    ">=",
+                    "30"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Temporizador\"",
+                    "<",
+                    "32"
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Rotate"
+              },
+              "parameters": [
+                "Player",
+                "45",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Temporizador\"",
+                    ">=",
+                    "30"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Temporizador\"",
+                    "<",
+                    "40"
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "Enemy1",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "Enemy2",
+                "-",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "Enemy3",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "Enemy4",
+                "-",
                 "1"
               ]
             }
@@ -6158,65 +5984,17 @@
                 "1000",
                 "1"
               ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::And"
-              },
-              "parameters": [],
-              "subInstructions": [
-                {
-                  "type": {
-                    "value": "CompareTimer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Temporizador\"",
-                    ">=",
-                    "10"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "CompareTimer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Temporizador\"",
-                    "<",
-                    "10.1"
-                  ]
-                }
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "EnemyBullet",
-                "Enemy2.CenterX()",
-                "Enemy2.CenterY() + 100",
-                "\"Elementos\""
-              ]
             },
             {
               "type": {
-                "value": "AddForceAL"
+                "value": "PlayMusic"
               },
               "parameters": [
-                "EnemyBullet",
-                "90",
-                "1000",
-                "1"
+                "",
+                "assets\\lazer-fire.wav",
+                "",
+                "5",
+                ""
               ]
             }
           ]
@@ -6238,7 +6016,7 @@
                     "",
                     "\"Temporizador\"",
                     ">=",
-                    "50"
+                    "32"
                   ]
                 },
                 {
@@ -6249,7 +6027,7 @@
                     "",
                     "\"Temporizador\"",
                     "<",
-                    "50.1"
+                    "32.1"
                   ]
                 }
               ]
@@ -6261,10 +6039,10 @@
                 "value": "Create"
               },
               "parameters": [
-                "",
-                "EnemyBullet",
-                "Enemy3.CenterX()",
-                "Enemy3.CenterY() + 100",
+                "Bullet",
+                "Bullet",
+                "Player.CenterX()",
+                "Player.CenterY() - 100",
                 "\"Elementos\""
               ]
             },
@@ -6273,10 +6051,22 @@
                 "value": "AddForceAL"
               },
               "parameters": [
-                "EnemyBullet",
-                "90",
+                "Bullet",
+                "-90",
                 "1000",
                 "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "assets\\lazer-fire.wav",
+                "",
+                "5",
+                ""
               ]
             }
           ]
@@ -6338,65 +6128,17 @@
                 "1000",
                 "1"
               ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::And"
-              },
-              "parameters": [],
-              "subInstructions": [
-                {
-                  "type": {
-                    "value": "CompareTimer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Temporizador\"",
-                    ">=",
-                    "15"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "CompareTimer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Temporizador\"",
-                    "<",
-                    "15.1"
-                  ]
-                }
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "EnemyBullet",
-                "Enemy4.CenterX()",
-                "Enemy4.CenterY() + 100",
-                "\"Elementos\""
-              ]
             },
             {
               "type": {
-                "value": "AddForceAL"
+                "value": "PlayMusic"
               },
               "parameters": [
-                "EnemyBullet",
-                "90",
-                "1000",
-                "1"
+                "",
+                "assets\\lazer-fire.wav",
+                "",
+                "5",
+                ""
               ]
             }
           ]
@@ -6418,7 +6160,7 @@
                     "",
                     "\"Temporizador\"",
                     ">=",
-                    "55"
+                    "35"
                   ]
                 },
                 {
@@ -6429,7 +6171,7 @@
                     "",
                     "\"Temporizador\"",
                     "<",
-                    "55.1"
+                    "37"
                   ]
                 }
               ]
@@ -6438,25 +6180,59 @@
           "actions": [
             {
               "type": {
-                "value": "Create"
+                "value": "Rotate"
               },
               "parameters": [
-                "",
-                "EnemyBullet",
-                "Enemy4.CenterX()",
-                "Enemy4.CenterY() + 100",
-                "\"Elementos\""
+                "Player",
+                "45",
+                ""
               ]
-            },
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
             {
               "type": {
-                "value": "AddForceAL"
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Temporizador\"",
+                    ">=",
+                    "37"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Temporizador\"",
+                    "<",
+                    "40"
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreX"
               },
               "parameters": [
-                "EnemyBullet",
-                "90",
-                "1000",
-                "1"
+                "Player",
+                "+",
+                "2"
               ]
             }
           ]
@@ -6572,7 +6348,7 @@
                 "",
                 "\"Temporizador\"",
                 ">=",
-                "60"
+                "40"
               ]
             }
           ],
@@ -9541,7 +9317,16 @@
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
           "actions": [
             {
               "type": {
@@ -9549,10 +9334,10 @@
               },
               "parameters": [
                 "",
-                "OneRepublic - Counting Stars (SNES Version) [TubeRipper.cc].ogg",
+                "assets\\one-republic-counting-stars-(snes-version).ogg",
                 "yes",
-                "0.2",
-                "1.0"
+                "5",
+                "1"
               ]
             }
           ]
@@ -12831,7 +12616,7 @@
               "CurrentCharacter": ""
             }
           ],
-          "string": "Curso: Engenharia de software \n7° Periodo\n\nEquipe: \n\nAlex;\nLeonardo;\nJosé Carlos;\nRenan;\n\nUniVassouras\n",
+          "string": "Curso: Engenharia de Software \n7° Período\n\nEquipe: \n\nAlex;\nLeonardo;\nJosé Carlos;\nRenan;\n\nUnivassouras\n",
           "font": "",
           "textAlignment": "center",
           "characterSize": 60,
@@ -12854,7 +12639,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Curso: Engenharia de software \n7° Periodo\n\nEquipe: \n\nAlex;\nLeonardo;\nJosé Carlos;\nRenan;\n\nUniVassouras\n",
+            "text": "Curso: Engenharia de Software \n7° Período\n\nEquipe: \n\nAlex;\nLeonardo;\nJosé Carlos;\nRenan;\n\nUnivassouras\n",
             "font": "",
             "textAlignment": "center",
             "characterSize": 60,
@@ -12967,7 +12752,16 @@
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
           "actions": [
             {
               "type": {
@@ -12975,9 +12769,9 @@
               },
               "parameters": [
                 "",
-                "Interstellar Main Theme - Hans Zimmer.mp3",
+                "assets\\interstellar-main-theme-hans-zimmer.mp3",
                 "",
-                "10",
+                "20",
                 "1"
               ]
             }
